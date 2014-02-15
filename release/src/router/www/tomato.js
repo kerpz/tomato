@@ -1,11 +1,3 @@
-/*
-	Tomato GUI
-	Copyright (C) 2006-2010 Jonathan Zarate
-	http://www.polarcloud.com/tomato/
-
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
-*/
 
 // -----------------------------------------------------------------------------
 

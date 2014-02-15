@@ -1,12 +1,4 @@
 <!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN'>
-<!--
-	Tomato GUI
-	Copyright (C) 2006-2010 Jonathan Zarate
-	http://www.polarcloud.com/tomato/
-
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
--->
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html;charset=utf-8'>
@@ -17,63 +9,11 @@
 <script type='text/javascript' src='tomato.js'></script>
 <script type='text/javascript'>
 //	<% nvram(''); %>	// http_id
-
-var clicks = 0;
-var tux = null;
-var t = 0;
-var r = 3;
-var rd = 1;
-
-function moo()
-{
-	if ((r <= 2) || (r >= 25)) rd = -rd;
-	r += rd;
-	t += (Math.PI / 10);
-	if (t > (2 * Math.PI)) t = 0;
-
-	var x = tux.origX + (r * Math.sin(t));
-	var y = tux.origY + (r * Math.cos(t));
-
-	tux.style.left = x + 'px';
-	tux.style.top = y + 'px';
-
-	if (clicks > 0) setTimeout(moo, 33);
-}
-
-function onClick()
-{
-	try {
-		++clicks;
-		if (clicks < 10) moo();
-			else clicks = 0;
-	}
-	catch (ex) {
-	}
-}
-
-function init()
-{
-	try {
-		tux = E('tux');
-
-		var o = elem.getOffset(tux);
-		tux.origX = o.x;
-		tux.origY = o.y;
-
-		tux.style.position = 'absolute';
-		tux.style.left = o.x + 'px';
-		tux.style.top = o.y + 'px';
-
-		tux.addEventListener('click', onClick, false);
-	}
-	catch (ex) {
-	}
-}
 </script>
 <!-- / / / -->
 
 </head>
-<body onload='init()'>
+<body>
 <table id='container' cellspacing=0>
 <tr><td colspan=2 id='header'>
 	<div class='title'>Tomato</div>
@@ -85,9 +25,6 @@ function init()
 
 <!-- / / / -->
 
-<div style='float:right;margin:20px 20px;text-align:center'>
-<img src='tux.png' alt='Linux &amp; Tomato' id='tux'>
-</div>
 <div class='about'>
 <b>Tomato Firmware <% version(1); %></b><br>
 
@@ -229,7 +166,7 @@ Based on Tomato Firmware v<% version(); %><br>
 Copyright (C) 2006-2010 Jonathan Zarate<br>
 <a href='http://www.polarcloud.com/tomato/' target='_new'>http://www.polarcloud.com/tomato/</a><br>
 <br>
-Built on <% build_time(); %> by Shibby, <a href='http://openlinksys.info' target='_new'>http://openlinksys.info</a><br><br>
+Built on <% build_time(); %> by Kerpz<br><br>
 <br><br>
 
 <!--

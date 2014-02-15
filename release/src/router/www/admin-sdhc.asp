@@ -1,13 +1,4 @@
 <!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN'>
-<!--
-	Tomato GUI
-	Copyright (C) 2006-2007 Jonathan Zarate
-	http://www.polarcloud.com/tomato/
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
-	MMC admin module by Augusto Bott
-	Modified by Tomasz S³odkowicz for SDHC/MMC driver v2.0.1
--->
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html;charset=utf-8'>

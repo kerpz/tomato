@@ -1,15 +1,4 @@
 <!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN'>
-<!--
-	Tomato GUI
-	Copyright (C) 2006-2008 Jonathan Zarate
-	http://www.polarcloud.com/tomato/
-
-	Copyright (C) 2011 Ofer Chen (Roadkill), Vicente Soriano (Victek)
-	Adapted & Modified from Dual WAN Tomato Firmware.
-
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
--->
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html;charset=utf-8'>

@@ -1,6 +1,5 @@
 body {
 	background-color: #283033;
-	background-image: url(tomatousb_bg.png);
 }
 
 #container {
@@ -27,8 +26,6 @@ input[type='button']:hover {
 
 #header {
 	border-bottom: 15px #fff solid;
-	background-image: url(openlinksys.png);
-	background-repeat: no-repeat;
 	background-position: right center;
 	background-color: #2f3d40;
 	padding: 15px 10px;

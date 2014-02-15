@@ -1,11 +1,4 @@
 <!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN'>
-<!--
-	Tomato GUI
-	Media Server Settings - !!TB
-
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
--->
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html;charset=utf-8'>

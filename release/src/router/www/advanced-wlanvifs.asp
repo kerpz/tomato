@@ -1,19 +1,4 @@
 <!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN'>
-<!--
-	Tomato GUI
-	Copyright (C) 2006-2007 Jonathan Zarate
-	http://www.polarcloud.com/tomato/
-
-	Virtual Wireless Interfaces web interface & extensions
-	Copyright (C) 2012 Augusto Bott
-	http://code.google.com/p/tomato-sdhc-vlan/
-	Some portions Copyright (C) Jean-Yves Avenard
-	mailto:jean-yves@avenard.org
-
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
-	LAN Access admin module by Augusto Bott
--->
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html;charset=utf-8'>

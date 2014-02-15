@@ -903,6 +903,14 @@ else
 	@$(MAKE) bin NTFS=y BBEXTRAS=y USBEXTRAS=y B=M BUILD_DESC="Nocat-VPN" USB="USB" BTGUI=y NOCAT=y OPENVPN=y DNSCRYPT=y PPTPD=y
 endif
 
+## KERPZ
+k:
+ifeq ($(CONFIG_LINUX26),y)
+	@$(MAKE) bin BBEXTRAS=y USBEXTRAS=y EBTABLES=y MEDIASRV=y IPV6SUPP=y B=M BUILD_DESC="KERPZ" USB="USB" BTCLIENT=y OPENVPN=y NO_JFFS=y NO_CIFS=y
+else
+	@$(MAKE) bin NTFS=y BBEXTRAS=y USBEXTRAS=y B=M BUILD_DESC="KERPZ" USB="USB" BTGUI=y NOCAT=y OPENVPN=y DNSCRYPT=y PPTPD=y
+endif
+
 ## TOR-VPN
 g:
 ifeq ($(CONFIG_LINUX26),y)
@@ -1004,6 +1012,9 @@ r2t:
 
 r2d:
 	@$(MAKE) d MIPS32=r2
+
+r2k:
+	@$(MAKE) k MIPS32=r2
 
 r2g:
 	@$(MAKE) g MIPS32=r2
@@ -1258,6 +1269,7 @@ ifeq ($(CONFIG_LINUX26),y)
 	@echo "r2e          MIPS Release 2 VPN"
 	@echo "r2c          MIPS Release 2 BTgui-VPN"
 	@echo "r2d          MIPS Release 2 Nocat-VPN"
+	@echo "r2k          MIPS Release 2 KERPZ"
 	@echo "r2g          MIPS Release 2 Tor-VPN"
 	@echo "r2t          MIPS Release 2 BT-VPN"
 	@echo "r2b          MIPS Release 2 Big-VPN"

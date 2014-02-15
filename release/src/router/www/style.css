@@ -2,7 +2,7 @@ body, html, #wrapper {width: 100%; height: 100%;}
 body, html, form, h1 { margin: 0; padding: 0; }
 
 body {
-background: #121b1d url(tomatousb_bg.png);
+background-color: #121b1d;
 font: 14px Tahoma, Arial, sans-serif;
 width: 100%;
 height: 100%;

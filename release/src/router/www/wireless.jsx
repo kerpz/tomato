@@ -1,10 +1,3 @@
-/*
-	Tomato GUI
-	http://www.polarcloud.com/tomato/
-
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
-*/
 
 //	<% wlifaces(1); %>
 //	<% wlbands(1); %>

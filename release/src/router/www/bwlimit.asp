@@ -1,16 +1,4 @@
 <!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN'>
-<!--
-	Tomato GUI
-	Copyright (C) 2006-2008 Jonathan Zarate
-	http://www.polarcloud.com/tomato/
-
-	Copyright (C) 2011 Deon 'PrinceAMD' Thomas 
-	rate limit & connection limit from Conanxu, 
-	adapted by Victek, Shibby, PrinceAMD, Phykris
-
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
--->
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html;charset=utf-8'>

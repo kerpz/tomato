@@ -1,20 +1,4 @@
 <!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.0//EN'>
-<!--
-	Tomato VLAN GUI
-	Copyright (C) 2011-2012 Augusto Bott
-	http://code.google.com/p/tomato-sdhc-vlan/
-
-	Tomato GUI
-	Copyright (C) 2006-2007 Jonathan Zarate
-	http://www.polarcloud.com/tomato/
-	
-	Tomato VLAN update and bug correction
-	Copyright (C) 2011-2012 Vicente Soriano
-	http://tomatoraf.com
-	
-	For use with Tomato Firmware only.
-	No part of this file may be used without permission.
--->
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html;charset=utf-8'>
