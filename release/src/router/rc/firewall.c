@@ -1861,12 +1861,21 @@ int start_firewall(void)
 	allow_fastnat("firewall", can_enable_fastnat);
 	try_enabling_fastnat();
 #endif
+
+	if (nvram_get_int("ppp3g_en")) {
+		eval("/tmp/ppp/fw/ppp3g-up-fw.sh");
+	}
+	
 	simple_unlock("firewall");
 	return 0;
 }
 
 int stop_firewall(void)
 {
+	if (nvram_get_int("ppp3g_en")) {
+		eval("/tmp/ppp/fw/ppp3g-down-fw.sh");
+	}
+
 	led(LED_DMZ, 0);
 	return 0;
 }

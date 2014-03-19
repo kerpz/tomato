@@ -12,12 +12,11 @@ void start_ppp3g(void)
 	FILE *f;
 	FILE *fp;
 
-	int ppp3g_en = nvram_get_int("ppp3g_en");
-
 	mkdir("/tmp/ppp", 0777);
 	mkdir("/tmp/ppp/peers", 0777);
+	mkdir("/tmp/ppp/fw", 0777);
 
-	if (ppp3g_en) {
+	if (nvram_get_int("ppp3g_en")) {
 
 		if ((fp = fopen("/tmp/ppp/peers/ppp3g", "w")) != NULL) {
 			fprintf(fp,
@@ -78,7 +77,12 @@ void start_ppp3g(void)
 		if ((f = fopen("/tmp/ppp/ip-up", "w")) != NULL) {
 			fprintf(f,
 				"#!/bin/sh\n"
-				"iptables -t nat -A POSTROUTING -j MASQUERADE -o $1\n"
+				"echo \"#!/bin/sh\" > /tmp/ppp/fw/ppp3g-up-fw.sh\n"
+				"echo \"iptables -I INPUT -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-up-fw.sh\n"
+				"echo \"iptables -I FORWARD -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-up-fw.sh\n"
+				"echo \"iptables -t nat -I POSTROUTING -o $1 -j MASQUERADE\" >> /tmp/ppp/fw/ppp3g-up-fw.sh\n"
+				"chmod 0755 /tmp/ppp/fw/ppp3g-up-fw.sh\n"
+				"/tmp/ppp/fw/ppp3g-up-fw.sh\n"
 				"%s\n",
 				nvram_safe_get("ppp3g_ipup"));
 			fclose(f);
@@ -89,7 +93,12 @@ void start_ppp3g(void)
 		if ((f = fopen("/tmp/ppp/ip-down", "w")) != NULL) {
 			fprintf(f,
 				"#!/bin/sh\n"
-				"iptables -t nat -D POSTROUTING -j MASQUERADE -o $1\n"
+				"echo \"#!/bin/sh\" > /tmp/ppp/fw/ppp3g-down-fw.sh\n"
+				"echo \"iptables -D INPUT -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-down-fw.sh\n"
+				"echo \"iptables -D FORWARD -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-down-fw.sh\n"
+				"echo \"iptables -t nat -D POSTROUTING -o $1 -j MASQUERADE\" >> /tmp/ppp/fw/ppp3g-down-fw.sh\n"
+				"chmod 0755 /tmp/ppp/fw/ppp3g-down-fw.sh\n"
+				"/tmp/ppp/fw/ppp3g-down-fw.sh\n"
 				"%s\n",
 				nvram_safe_get("ppp3g_ipdown"));
 			fclose(f);
@@ -132,5 +141,4 @@ void stop_ppp3g(void)
 
 	TRACE_PT("end\n");
 }
-
 
