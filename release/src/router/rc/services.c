@@ -2577,6 +2577,17 @@ TOP:
 		goto CLEAR;
 	}
 
+	if (strcmp(service, "ppp3g") == 0) {
+		if (action & A_STOP) {
+			stop_ppp3g();
+		}
+
+		if (action & A_START) {
+			start_ppp3g();
+		}
+		goto CLEAR;
+	}
+
 	if (strcmp(service, "net") == 0) {
 		if (action & A_STOP) {
 #ifdef TCONFIG_USB
@@ -2586,6 +2597,7 @@ TOP:
 			stop_dnsmasq();
 			stop_nas();
 			stop_wan();
+			stop_ppp3g();
 			stop_arpbind();
 			stop_lan();
 			stop_vlan();
@@ -2595,6 +2607,7 @@ TOP:
 			start_lan();
 			start_arpbind();
 			start_wan(BOOT);
+			start_ppp3g();
 			start_nas();
 			start_dnsmasq();
 			start_httpd();

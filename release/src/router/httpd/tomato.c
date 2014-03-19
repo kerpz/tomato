@@ -320,6 +320,7 @@ const struct mime_handler mime_handlers[] = {
 	{ "dhcpd.cgi",		mime_javascript,			0,	wi_generic,			wo_dhcpd,		1 },
 	{ "nvcommit.cgi",	NULL,						0,	wi_generic,			wo_nvcommit,	1 },
 	{ "ping.cgi",		mime_javascript,			0,	wi_generic,			wo_ping,		1 },
+	{ "sms.cgi",		mime_javascript,			0,	wi_generic,			wo_sms,		1 },
 	{ "trace.cgi",		mime_javascript,			0,	wi_generic,			wo_trace,		1 },
 	{ "upgrade.cgi",	mime_html,					0,	wi_upgrade,			wo_flash,		1 },
 	{ "upnp.cgi",		NULL,						0,	wi_generic,			wo_upnp,		1 },
@@ -599,6 +600,20 @@ static const nvset_t nvset_list[] = {
 	{ "modem_dev",			V_LENGTH(0,8)			},
 	{ "modem_init",			V_LENGTH(0,25)			},
 	{ "modem_apn",			V_LENGTH(0,25)			},
+
+	{ "ppp3g_en",			V_01			},
+	{ "ppp3g_pin",			V_LENGTH(0,6)			},
+	{ "ppp3g_dev",			V_LENGTH(0,8)			},
+	{ "ppp3g_init",			V_LENGTH(0,25)			},
+	{ "ppp3g_apn",			V_LENGTH(0,25)			},
+	{ "ppp3g_username",		V_LENGTH(0, 60)		},
+	{ "ppp3g_passwd",		V_LENGTH(0, 60)		},
+	{ "ppp3g_demand",		V_01				},
+	{ "ppp3g_custom",		V_LENGTH(0, 256)		},
+	{ "ppp3g_idletime",		V_RANGE(0, 1440)	},
+	{ "ppp3g_redialperiod",		V_RANGE(1, 86400)	},
+	{ "ppp3g_ipup",			V_NONE				},
+	{ "ppp3g_ipdown",		V_NONE				},
 #endif
 
 	// LAN networks

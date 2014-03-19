@@ -1,8 +1,8 @@
 /*
-
 	Tomato Firmware
 	Copyright (C) 2006-2009 Jonathan Zarate
 
+	Portions, Copyright (C) 2014 Philip Bordado
 */
 
 #ifndef __TOMATO_H_
@@ -137,6 +137,9 @@ extern void asp_version(int argc, char **argv);
 // traceping.c
 extern void wo_trace(char *url);
 extern void wo_ping(char *url);
+
+// sms.c
+extern void wo_sms(char *url);
 
 // log.c
 extern void wo_viewlog(char *url);

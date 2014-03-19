@@ -2362,6 +2362,7 @@ function navi()
 			['Ping',			'ping.asp'],
 			['Trace',			'trace.asp'],
 			['System Commands',		'shell.asp'],
+			['SMS',				'sms.asp'],
 			['Wireless Survey',		'survey.asp'],
 			['WOL',				'wol.asp'] ] ],
 		null,
@@ -2740,7 +2741,4 @@ function isLocal()
 function console(s)
 {
 }
-
-
-
 

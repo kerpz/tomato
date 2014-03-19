@@ -10,7 +10,7 @@ ifeq ($(STATIC),1)
 LDFLAGS += -static
 endif
 
-OBJS := rc.o init.o interface.o network.o wan.o services.o dhcp.o
+OBJS := rc.o init.o interface.o network.o wan.o services.o dhcp.o ppp3g.o
 OBJS += firewall.o ppp.o telssh.o wnas.o
 OBJS += listen.o redial.o led.o qos.o forward.o misc.o mtd.o
 OBJS += buttons.o restrict.o gpio.o sched.o
@@ -140,11 +140,11 @@ ifeq ($(TOMATO_SL),1)
 	@cd $(INSTALLDIR)/sbin && ln -sf rc umountx
 endif
 
-ifeq ($(TCONFIG_OPENVPN),y)
-	@mkdir -p $(INSTALLDIR)/rom/openvpn
-	@cp openvpn-updown.sh $(INSTALLDIR)/rom/openvpn/updown.sh
-	@chmod 0755 $(INSTALLDIR)/rom/openvpn/updown.sh
-endif
+#ifeq ($(TCONFIG_OPENVPN),y)
+#	@mkdir -p $(INSTALLDIR)/rom/openvpn
+#	@cp openvpn-updown.sh $(INSTALLDIR)/rom/openvpn/updown.sh
+#	@chmod 0755 $(INSTALLDIR)/rom/openvpn/updown.sh
+#endif
 
 clean:
 	rm -f rc *.o .*.depend

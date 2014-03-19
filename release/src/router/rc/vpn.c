@@ -1,9 +1,12 @@
 /*
-
 	Copyright (C) 2008-2010 Keith Moyer, tomatovpn@keithmoyer.com
-
 	No part of this file may be used without permission.
 
+	Portions, Copyright (C) 2014 Philip Bordado
+
+	Support httpd access via openvpn
+	Update vpn_client*_local
+	Update vpn_client*_remote
 */
 
 #include "rc.h"
@@ -234,16 +237,6 @@ void start_vpnclient(int clientNum)
 	fprintf(fp, "verb 3\n");
 	if ( cryptMode == TLS )
 	{
-		sprintf(&buffer[0], "vpn_client%d_adns", clientNum);
-		if ( nvram_get_int(&buffer[0]) > 0 )
-		{
-			sprintf(&buffer[0], "/etc/openvpn/client%d/updown.sh", clientNum);
-			symlink("/rom/openvpn/updown.sh", &buffer[0]);
-			fprintf(fp, "script-security 2\n");
-			fprintf(fp, "up updown.sh\n");
-			fprintf(fp, "down updown.sh\n");
-		}
-
 		sprintf(&buffer[0], "vpn_client%d_hmac", clientNum);
 		nvi = nvram_get_int(&buffer[0]);
 		sprintf(&buffer[0], "vpn_client%d_static", clientNum);
@@ -284,11 +277,48 @@ void start_vpnclient(int clientNum)
 	}
 	fprintf(fp, "status-version 2\n");
 	fprintf(fp, "status status\n");
+
+	fprintf(fp, "script-security 2\n");
+	fprintf(fp, "up ip-up\n");
+	fprintf(fp, "down ip-down\n");
+
 	fprintf(fp, "\n# Custom Configuration\n");
 	sprintf(&buffer[0], "vpn_client%d_custom", clientNum);
 	fprintf(fp, "%s", nvram_safe_get(&buffer[0]));
 	fclose(fp);
 	vpnlog(VPN_LOG_EXTRA,"Done writing config file");
+
+	// create ip-up script
+	sprintf(&buffer[0], "/etc/openvpn/client%d/ip-up", clientNum);
+	if ((fp = fopen(&buffer[0], "w")) != NULL) {
+		// TODO: add custom cmd on the webui
+		fprintf(fp,
+			"#!/bin/sh\n"
+			"nvram set vpn_client%d_local=\"$4\"\n"
+			"nvram set vpn_client%d_remote=\"$5\"\n"
+			"service httpd restart\n",
+			clientNum,
+			clientNum);
+		/* TODO: fix this / consult openvpn-updown.sh
+		sprintf(&buffer[0], "vpn_client%d_adns", clientNum);
+		if ( nvram_get_int(&buffer[0]) > 0 )
+		{
+			// add the script here
+		}
+		*/
+		fclose(fp);
+		chmod(&buffer[0], 0755);
+	}
+
+	// create ip-down script
+	sprintf(&buffer[0], "/etc/openvpn/client%d/ip-down", clientNum);
+	if ((fp = fopen(&buffer[0], "w")) != NULL) {
+		// TODO: add custom cmd on the webui
+		fprintf(fp,
+			"#!/bin/sh\n");
+		fclose(fp);
+		chmod(&buffer[0], 0755);
+	}
 
 	// Write certification and key files
 	vpnlog(VPN_LOG_EXTRA,"Writing certs/keys");

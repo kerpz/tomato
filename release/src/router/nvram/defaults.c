@@ -28,6 +28,10 @@
 	FOR A SPECIFIC PURPOSE OR NONINFRINGEMENT CONCERNING THIS SOFTWARE.
 
 */
+/*
+	Tomato Firmware
+	Portions, Copyright (C) 2014 Philip Bordado
+*/
 
 #include <string.h>
 #include <bcmnvram.h>
@@ -144,6 +148,25 @@ const defaults_t defaults[] = {
 	{ "modem_dev",			"ttyUSB0"			},
 	{ "modem_init",			"*99#"				},
 	{ "modem_apn",			"internet"			},
+
+	// PPP3G
+	{ "ppp3g_en",			"0"				},	// Enable / Disable modem
+	{ "ppp3g_pin",			""				},
+	{ "ppp3g_dev",			"ttyUSB2"			},
+	{ "ppp3g_init",			"*99#"				},
+	{ "ppp3g_apn",			"internet"			},
+	{ "ppp3g_username",		""				},	// PPP3G username
+	{ "ppp3g_passwd",		""				},	// PPP#G password
+	{ "ppp3g_idletime",		"5"				},	// Dial on demand max idle time (mins)
+	{ "ppp3g_keepalive",		"0"				},	// Restore link automatically
+	{ "ppp3g_demand",		"0"				},	// Dial on demand
+	{ "ppp3g_redialperiod",		"10"				},	// Redial Period  (seconds)*/
+	{ "ppp3g_custom",		""				},	// PPPD additional options
+	{ "ppp3g_ipup",			""				},	// Script to run on ipup
+	{ "ppp3g_ipdown",		""				},	// Script to run on ipdown
+
+	// SMS
+	{ "sms_dev",			"ttyUSB1"			},
 
 	// PPPoE parameters
 	{ "pppoe_ifname",		""				},	// PPPoE enslaved interface

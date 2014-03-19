@@ -2257,6 +2257,7 @@ int init_main(int argc, char *argv[])
 
 			stop_services();
 			stop_wan();
+			stop_ppp3g();
 			stop_lan();
 			stop_vlan();
 			stop_syslog();
@@ -2305,6 +2306,7 @@ int init_main(int argc, char *argv[])
 			start_lan();
 			start_arpbind();
 			start_wan(BOOT);
+			start_ppp3g();
 			start_services();
 			start_wl();
 

@@ -37,7 +37,7 @@
 <script type='text/javascript' src='wireless.jsx?_http_id=<% nv(http_id); %>'></script>
 <script type='text/javascript' src='interfaces.js'></script>
 <script type='text/javascript'>
-//	<% nvram("dhcp_lease,dhcp_num,dhcp_start,dhcpd_startip,dhcpd_endip,l2tp_server_ip,lan_gateway,lan_ipaddr,lan_netmask,lan_proto,lan_state,lan_desc,lan_invert,mtu_enable,ppp_demand,ppp_idletime,pppoe_lei,pppoe_lef,ppp_passwd,ppp_redialperiod,ppp_service,ppp_username,ppp_custom,pptp_server_ip,pptp_dhcp,wl_security_mode,wan_dns,dnscrypt_proxy,dnscrypt_port,dnscrypt_cmd,wan_gateway,wan_ipaddr,wan_mtu,wan_netmask,wan_proto,wan_wins,wl_wds_enable,wl_channel,wl_closed,wl_crypto,wl_key,wl_key1,wl_key2,wl_key3,wl_key4,wl_lazywds,wl_mode,wl_net_mode,wl_passphrase,wl_radio,wl_radius_ipaddr,wl_radius_port,wl_ssid,wl_wds,wl_wep_bit,wl_wpa_gtk_rekey,wl_wpa_psk,wl_radius_key,wl_auth,wl_hwaddr,wan_islan,t_features,wl_nbw_cap,wl_nctrlsb,wl_nband,wl_phytype,lan_ifname,lan_stp,lan1_ifname,lan1_ipaddr,lan1_netmask,lan1_proto,lan1_stp,dhcp1_start,dhcp1_num,dhcp1_lease,dhcpd1_startip,dhcpd1_endip,lan2_ifname,lan2_ipaddr,lan2_netmask,lan2_proto,lan2_stp,dhcp2_start,dhcp2_num,dhcp2_lease,dhcpd2_startip,dhcpd2_endip,lan3_ifname,lan3_ipaddr,lan3_netmask,lan3_proto,lan3_stp,dhcp3_start,dhcp3_num,dhcp3_lease,dhcpd3_startip,dhcpd3_endip,ppp_mlppp,modem_ipaddr,modem_pin,modem_dev,modem_init,modem_apn,cstats_enable"); %>
+//	<% nvram("dhcp_lease,dhcp_num,dhcp_start,dhcpd_startip,dhcpd_endip,l2tp_server_ip,lan_gateway,lan_ipaddr,lan_netmask,lan_proto,lan_state,lan_desc,lan_invert,mtu_enable,ppp_demand,ppp_idletime,pppoe_lei,pppoe_lef,ppp_passwd,ppp_redialperiod,ppp_service,ppp_username,ppp_custom,pptp_server_ip,pptp_dhcp,wl_security_mode,wan_dns,dnscrypt_proxy,dnscrypt_port,dnscrypt_cmd,wan_gateway,wan_ipaddr,wan_mtu,wan_netmask,wan_proto,wan_wins,wl_wds_enable,wl_channel,wl_closed,wl_crypto,wl_key,wl_key1,wl_key2,wl_key3,wl_key4,wl_lazywds,wl_mode,wl_net_mode,wl_passphrase,wl_radio,wl_radius_ipaddr,wl_radius_port,wl_ssid,wl_wds,wl_wep_bit,wl_wpa_gtk_rekey,wl_wpa_psk,wl_radius_key,wl_auth,wl_hwaddr,wan_islan,t_features,wl_nbw_cap,wl_nctrlsb,wl_nband,wl_phytype,lan_ifname,lan_stp,lan1_ifname,lan1_ipaddr,lan1_netmask,lan1_proto,lan1_stp,dhcp1_start,dhcp1_num,dhcp1_lease,dhcpd1_startip,dhcpd1_endip,lan2_ifname,lan2_ipaddr,lan2_netmask,lan2_proto,lan2_stp,dhcp2_start,dhcp2_num,dhcp2_lease,dhcpd2_startip,dhcpd2_endip,lan3_ifname,lan3_ipaddr,lan3_netmask,lan3_proto,lan3_stp,dhcp3_start,dhcp3_num,dhcp3_lease,dhcpd3_startip,dhcpd3_endip,ppp_mlppp,modem_ipaddr,modem_pin,modem_dev,modem_init,modem_apn,cstats_enable,ppp3g_en,ppp3g_dev,ppp3g_init,ppp3g_apn,ppp3g_username,ppp3g_passwd,ppp3g_idletime,ppp3g_keepalive,ppp3g_custom,ppp3g_demand,ppp3g_redialperiod,ppp3g_ipup,ppp3g_ipdown"); %>
 
 var lg = new TomatoGrid();
 lg.setup = function() {
@@ -767,7 +767,19 @@ function verifyFields(focused, quiet)
 		_modem_pin: 1,
 		_modem_dev: 1,
 		_modem_init: 1,
-		_modem_apn: 1
+		_modem_apn: 1,
+
+		_ppp3g_en: 1,
+		_ppp3g_pin: 1,
+		_ppp3g_dev: 1,
+		_ppp3g_init: 1,
+		_ppp3g_apn: 1,
+		_ppp3g_demand: 1,
+		_ppp3g_custom: 1,
+		_ppp3g_idletime: 1,
+		_ppp3g_redialperiod: 1,
+		_ppp3g_ipup: 1,
+		_ppp3g_ipdown: 1
 	};
 
 	var wl_vis = [];
@@ -953,6 +965,28 @@ function verifyFields(focused, quiet)
 		vis._modem_apn = 0;
 		break;
 	}
+
+	var ppp3g_en = E('_ppp3g_en').value;
+
+	switch (ppp3g_en) {
+	case '0':
+		vis._ppp3g_pin = 0;
+		vis._ppp3g_dev = 0;
+		vis._ppp3g_init = 0;
+		vis._ppp3g_apn = 0;
+		vis._ppp3g_username = 0;
+		vis._ppp3g_passwd = 0;
+		vis._ppp3g_idletime = 0;
+		vis._ppp3g_redialperiod = 0;
+		vis._ppp3g_demand = 0;
+		vis._ppp3g_custom = 0;
+		vis._ppp3g_ipup = 0;
+		vis._ppp3g_ipdown = 0;
+		break;
+	}
+
+	vis._ppp3g_idletime = (E('_ppp3g_demand').value == 1) && vis._ppp3g_demand
+	vis._ppp3g_redialperiod = !vis._ppp3g_idletime && vis._ppp3g_demand;
 
 	vis._ppp_idletime = (E('_ppp_demand').value == 1) && vis._ppp_demand
 	vis._ppp_redialperiod = !vis._ppp_idletime && vis._ppp_demand;
@@ -1633,7 +1667,30 @@ createFieldTable('', [
 
 	{ title: 'Bridge WAN port to primary LAN (br0)', name: 'f_wan_islan', type: 'checkbox', value: (nvram.wan_islan == 1) }
 ]);
+</script>
+</div>
 
+<div class='section-title'>PPP3G / Internet</div>
+<div class='section'>
+<script type='text/javascript'>
+createFieldTable('', [
+	{ title: 'State', name: 'ppp3g_en', type: 'select', options: [	['1','Enabled'],['0','Disabled']],value: nvram.ppp3g_en },
+	{ title: 'Modem device', name: 'ppp3g_dev', type: 'select', options: [['ttyUSB0', '/dev/ttyUSB0'],['ttyUSB1', '/dev/ttyUSB1'],['ttyUSB2', '/dev/ttyUSB2'],['ttyUSB3', '/dev/ttyUSB3'],['ttyUSB4', '/dev/ttyUSB4'],['ttyUSB5', '/dev/ttyUSB5'],['ttyUSB6', '/dev/ttyUSB6'],['ttyACM0', '/dev/ttyACM0']], value: nvram.ppp3g_dev },
+	{ title: 'PIN Code', name: 'ppp3g_pin', type: 'text', maxlen: 6, size: 8, value: nvram.ppp3g_pin, suffix: ' <i>Advised to turn off PIN Code</i>' },
+	{ title: 'Modem init string', name: 'ppp3g_init', type: 'text', maxlen: 25, size: 32, value: nvram.ppp3g_init },
+	{ title: 'APN', name: 'ppp3g_apn', type: 'text', maxlen: 25, size: 32, value: nvram.ppp3g_apn },
+	{ title: 'Username', name: 'ppp3g_username', type: 'text', maxlen: 60, size: 64, value: nvram.ppp3g_username },
+	{ title: 'Password', name: 'ppp3g_passwd', type: 'password', maxlen: 60, size: 64, peekaboo: 1, value: nvram.ppp3g_passwd },
+	{ title: 'Options', name: 'ppp3g_custom', type: 'text', maxlen: 256, size: 64, value: nvram.ppp3g_custom },
+	{ title: 'Connect Mode', name: 'ppp3g_demand', type: 'select', options: [['1', 'Connect On Demand'],['0', 'Keep Alive']],
+		value: nvram.ppp3g_demand },
+	{ title: 'Max Idle Time', indent: 2, name: 'ppp3g_idletime', type: 'text', maxlen: 5, size: 7, suffix: ' <i>(minutes)</i>',
+		value: nvram.ppp3g_idletime },
+	{ title: 'Redial Interval', indent: 2, name: 'ppp3g_redialperiod', type: 'text', maxlen: 5, size: 7, suffix: ' <i>(seconds)</i>',
+		value: nvram.ppp3g_redialperiod },
+	{ title: 'IP Up', name: 'ppp3g_ipup', type: 'textarea', value: eval( 'nvram.ppp3g_ipup' ) },
+	{ title: 'IP Down', name: 'ppp3g_ipdown', type: 'textarea', value: eval( 'nvram.ppp3g_ipdown' ) }
+]);
 </script>
 </div>
 
@@ -1789,3 +1846,4 @@ if (wl_sunit(uidx)<0) {
 <div style='height:100px'></div>
 </body>
 </html>
+

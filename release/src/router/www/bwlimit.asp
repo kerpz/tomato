@@ -5,7 +5,7 @@
 <meta name='robots' content='noindex,nofollow'>
 <title>[<% ident(); %>] IP/Range BW Limiter</title>
 <link rel='stylesheet' type='text/css' href='tomato.css'>
-<link rel='stylesheet' type='text/css' href='color.css'>
+<% css(); %>
 <script type='text/javascript' src='tomato.js'></script>
 
 <!-- / / / -->
