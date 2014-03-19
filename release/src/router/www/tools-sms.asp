@@ -43,7 +43,7 @@ pg.setup = function() {
 pg.populate = function()
 {
 	var buf = smsdata.split('\n');
-	var i;
+	var i, j;
 	var r;
 	var s = new Array();
 	//var stats = '';
@@ -76,15 +76,20 @@ REMOVE-END */
 			s[0] = r[1];
 			s[1] = r[4];
 			s[2] = r[3];
-			s[3] = buf[++i];
+			s[3] = buf[++i] + '<br>';
+			
+			j = i;
+			while (!buf[++j].match(/\+CMGL:/g)) {
+				if (buf[j] == "OK") break;
+				s[3] = s[3] + buf[j]  + '<br>';
+				i = j;
+			}
 			this.insert(-1, s, s, false);
 		}
 	}
                
 	this.resort(1);
 
-	//E('stats').innerHTML = stats;
-	//E('debug').value = smsdata;
 	smsdata = '';
 	spin(0);
 }
@@ -97,7 +102,8 @@ pg.rpDel = function(e)
 
 	sms = new XmlHttp();
 	sms.onCompleted = function(text, xml) {
-		spin(0);
+		eval(text);
+		pg.populate();
 		sms = null;
 	}
 	sms.onError = function(x) {
@@ -105,7 +111,13 @@ pg.rpDel = function(e)
 		spin(0);
 	}
 
-	sms.post('sms.cgi', 'delete=' + PR(e).cells[0].innerHTML);
+	sms.post('sms.cgi', 'read=all&delete=' + PR(e).cells[0].innerHTML);
+}
+
+function verifyFields(focused, quiet)
+{
+	//alert('verify test');
+	save();
 }
 
 var sms = null;
@@ -116,10 +128,8 @@ function spin(x)
 	E('refreshb').disabled = x;
 	E('_f_number').disabled = x;
 	E('_f_message').disabled = x;
-	//E('_f_size').disabled = x;
 	E('sendspin').style.visibility = x ? 'visible' : 'hidden';
 	E('refreshspin').style.visibility = x ? 'visible' : 'hidden';
-	//if (!x) sms = null;
 }
 
 function sendsms()
@@ -132,24 +142,22 @@ function sendsms()
 	var number = E('_f_number').value;
 	var message = E('_f_message').value;
 
+	if (number == '') return;
+
 	spin(1);
 
 	sms = new XmlHttp();
 	sms.onCompleted = function(text, xml) {
-		//eval(text);
-		spin(0);
+		eval(text);
+		pg.populate();
 		sms = null;
-		//pg.populate();
 	}
 	sms.onError = function(x) {
 		alert('error: ' + x);
 		spin(0);
 	}
 
-	sms.post('sms.cgi', 'number=' + number + '&message=' + message);
-
-	//cookie.set('smsnumber', number);
-	//cookie.set('smsmessage', message);
+	sms.post('sms.cgi', 'read=all&number=' + number + '&message=' + message);
 }
 
 function readsms()
@@ -174,19 +182,14 @@ function readsms()
 
 function init()
 {
-	//var s;
-
-	//if ((s = cookie.get('smsnumber')) != null) E('_f_number').value = s;
-	//if ((s = cookie.get('smsmessage')) != null) E('_f_message').value = s;
-
-	//E('_f_number').onkeypress = function(ev) { if (checkEvent(ev).keyCode == 13) sendsms(); }
-	
 	readsms();
 }
 
 function save()
 {
-	alert("TODO");
+	var fom = E('_fom');
+	//alert(fom.sms_dev.value);
+	form.submit(fom, 1);
 }
 </script>
 
@@ -227,16 +230,9 @@ createFieldTable('', [
 createFieldTable('', [
 	{ title: 'Modem device', name: 'sms_dev', type: 'select', options: [['ttyUSB0', '/dev/ttyUSB0'],['ttyUSB1', '/dev/ttyUSB1'],['ttyUSB2', '/dev/ttyUSB2'],['ttyUSB3', '/dev/ttyUSB3'],['ttyUSB4', '/dev/ttyUSB4'],['ttyUSB5', '/dev/ttyUSB5'],['ttyUSB6', '/dev/ttyUSB6'],['ttyACM0', '/dev/ttyACM0']], value: nvram.sms_dev },
 ]);
-W("<div style='float:right'><input type='button' onclick='save()' value='Save' id='saveb'></div>");
 </script>
+
 </div>
-
-<!--
-<pre id='stats'></pre>
-
-<div style='height:10px;' onclick='javascript:E("debug").style.display=""'></div>
-<textarea id='debug' style='width:99%;height:300px;display:none'></textarea>
--->
 
 <!-- / / / -->
 

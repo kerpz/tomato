@@ -3,6 +3,8 @@
 	Tomato Firmware
 	Copyright (C) 2006-2010 Jonathan Zarate
 
+	Portions, Copyright (C) 2014 Philip Bordado
+
 */
 
 #include "tomato.h"
@@ -614,6 +616,8 @@ static const nvset_t nvset_list[] = {
 	{ "ppp3g_redialperiod",		V_RANGE(1, 86400)	},
 	{ "ppp3g_ipup",			V_NONE				},
 	{ "ppp3g_ipdown",		V_NONE				},
+
+	{ "sms_dev",			V_LENGTH(0,8)			},
 #endif
 
 	// LAN networks
