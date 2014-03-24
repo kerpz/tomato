@@ -116,7 +116,6 @@ pg.rpDel = function(e)
 
 function verifyFields(focused, quiet)
 {
-	//alert('verify test');
 	save();
 }
 
