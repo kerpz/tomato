@@ -1,0 +1,3124 @@
+
+*********************** Sat Feb 15 02:25:45 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6758.51 Kbytes (6.60 Mbytes)
+	31.70% of uncompressed filesystem size (21323.54 Kbytes)
+Inode table size 9365 bytes (9.15 Kbytes)
+	23.03% of uncompressed inode table size (40671 bytes)
+Directory table size 10881 bytes (10.63 Kbytes)
+	53.92% of uncompressed directory table size (20180 bytes)
+No duplicate files removed
+Number of inodes 1259
+Number of files 1005
+Number of fragments 82
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 65
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7892992 (7708.0 KB) (7.5 MB)
+   Images ...... : 7890916 (0x007867e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 36864
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : D9F8EC79
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Feb 15 03:37:08 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6805.04 Kbytes (6.65 Mbytes)
+	31.62% of uncompressed filesystem size (21522.47 Kbytes)
+Inode table size 9280 bytes (9.06 Kbytes)
+	23.04% of uncompressed inode table size (40272 bytes)
+Directory table size 10757 bytes (10.50 Kbytes)
+	53.97% of uncompressed directory table size (19933 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 995
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7942144 (7756.0 KB) (7.6 MB)
+   Images ...... : 7940068 (0x007927e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 1 EBs + 53248
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 306CE56A
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 122 (0x0000007A)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Feb 15 04:25:45 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6613.56 Kbytes (6.46 Mbytes)
+	31.75% of uncompressed filesystem size (20827.12 Kbytes)
+Inode table size 8841 bytes (8.63 Kbytes)
+	22.88% of uncompressed inode table size (38642 bytes)
+Directory table size 10325 bytes (10.08 Kbytes)
+	54.48% of uncompressed directory table size (18951 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 77
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7663616 (7484.0 KB) (7.3 MB)
+   Images ...... : 7663588 (0x0074efe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 3F025B2A
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Feb 15 04:35:29 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6804.99 Kbytes (6.65 Mbytes)
+	31.62% of uncompressed filesystem size (21522.39 Kbytes)
+Inode table size 9259 bytes (9.04 Kbytes)
+	22.99% of uncompressed inode table size (40272 bytes)
+Directory table size 10756 bytes (10.50 Kbytes)
+	53.96% of uncompressed directory table size (19933 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 995
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7942144 (7756.0 KB) (7.6 MB)
+   Images ...... : 7940068 (0x007927e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 1 EBs + 53248
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 83204118
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 122 (0x0000007A)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Feb 15 05:04:21 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 7352.63 Kbytes (7.18 Mbytes)
+	31.50% of uncompressed filesystem size (23342.46 Kbytes)
+Inode table size 9322 bytes (9.10 Kbytes)
+	23.07% of uncompressed inode table size (40416 bytes)
+Directory table size 10765 bytes (10.51 Kbytes)
+	53.98% of uncompressed directory table size (19941 bytes)
+No duplicate files removed
+Number of inodes 1247
+Number of files 996
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 8503296 (8304.0 KB) (8.1 MB)
+   Images ...... : 8501220 (0x0081b7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 0 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 79D32CB2
+ 128K Blocks ... : 65 (0x00000041)
+  64K Blocks ... : 130 (0x00000082)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Feb 15 05:12:15 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6979.38 Kbytes (6.82 Mbytes)
+	31.80% of uncompressed filesystem size (21947.32 Kbytes)
+Inode table size 9359 bytes (9.14 Kbytes)
+	23.11% of uncompressed inode table size (40504 bytes)
+Directory table size 10825 bytes (10.57 Kbytes)
+	54.04% of uncompressed directory table size (20033 bytes)
+No duplicate files removed
+Number of inodes 1252
+Number of files 999
+Number of fragments 81
+Number of symbolic links  190
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 8118272 (7928.0 KB) (7.7 MB)
+   Images ...... : 8116196 (0x007bd7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 0 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 8CC90FCC
+ 128K Blocks ... : 62 (0x0000003E)
+  64K Blocks ... : 124 (0x0000007C)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Feb 15 05:17:18 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6804.97 Kbytes (6.65 Mbytes)
+	31.62% of uncompressed filesystem size (21522.39 Kbytes)
+Inode table size 9239 bytes (9.02 Kbytes)
+	22.94% of uncompressed inode table size (40272 bytes)
+Directory table size 10757 bytes (10.50 Kbytes)
+	53.97% of uncompressed directory table size (19933 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 995
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7942144 (7756.0 KB) (7.6 MB)
+   Images ...... : 7940068 (0x007927e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 1 EBs + 53248
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : DEB10795
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 122 (0x0000007A)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Feb 15 10:58:43 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6789.90 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.90 Kbytes)
+Inode table size 9234 bytes (9.02 Kbytes)
+	22.98% of uncompressed inode table size (40176 bytes)
+Directory table size 10728 bytes (10.48 Kbytes)
+	53.96% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : D03937E9
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Feb 16 00:35:51 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6789.93 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9242 bytes (9.03 Kbytes)
+	23.00% of uncompressed inode table size (40176 bytes)
+Directory table size 10726 bytes (10.47 Kbytes)
+	53.95% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 9AE0EBC0
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Feb 17 13:13:14 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.25 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9256 bytes (9.04 Kbytes)
+	23.04% of uncompressed inode table size (40176 bytes)
+Directory table size 10728 bytes (10.48 Kbytes)
+	53.96% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 12A87063
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Feb 17 13:19:49 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.20 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9203 bytes (8.99 Kbytes)
+	22.91% of uncompressed inode table size (40176 bytes)
+Directory table size 10729 bytes (10.48 Kbytes)
+	53.97% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 41B631F7
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Feb 17 13:45:31 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.13 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9200 bytes (8.98 Kbytes)
+	22.90% of uncompressed inode table size (40176 bytes)
+Directory table size 10729 bytes (10.48 Kbytes)
+	53.97% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 6FBAAEDF
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Feb 18 05:50:41 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.17 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9256 bytes (9.04 Kbytes)
+	23.04% of uncompressed inode table size (40176 bytes)
+Directory table size 10725 bytes (10.47 Kbytes)
+	53.95% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 37FC04A4
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Feb 19 10:09:51 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.12 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9211 bytes (9.00 Kbytes)
+	22.93% of uncompressed inode table size (40176 bytes)
+Directory table size 10728 bytes (10.48 Kbytes)
+	53.96% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 99724160
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Feb 19 10:35:40 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.15 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9206 bytes (8.99 Kbytes)
+	22.91% of uncompressed inode table size (40176 bytes)
+Directory table size 10729 bytes (10.48 Kbytes)
+	53.97% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : B41F0FA7
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Feb 19 11:06:28 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.15 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9211 bytes (9.00 Kbytes)
+	22.93% of uncompressed inode table size (40176 bytes)
+Directory table size 10728 bytes (10.48 Kbytes)
+	53.96% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 6103738F
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Feb 19 11:57:18 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.14 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9199 bytes (8.98 Kbytes)
+	22.90% of uncompressed inode table size (40176 bytes)
+Directory table size 10729 bytes (10.48 Kbytes)
+	53.97% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 69231429
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Feb 19 12:39:52 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.20 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9215 bytes (9.00 Kbytes)
+	22.94% of uncompressed inode table size (40176 bytes)
+Directory table size 10729 bytes (10.48 Kbytes)
+	53.97% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 698A82C2
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Feb 19 12:51:53 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.18 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9197 bytes (8.98 Kbytes)
+	22.89% of uncompressed inode table size (40176 bytes)
+Directory table size 10729 bytes (10.48 Kbytes)
+	53.97% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : AEE55C08
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Feb 19 13:09:09 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.14 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9209 bytes (8.99 Kbytes)
+	22.92% of uncompressed inode table size (40176 bytes)
+Directory table size 10729 bytes (10.48 Kbytes)
+	53.97% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : B9B7E57C
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 5 01:06:41 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.18 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9242 bytes (9.03 Kbytes)
+	23.00% of uncompressed inode table size (40176 bytes)
+Directory table size 10728 bytes (10.48 Kbytes)
+	53.96% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 834C248C
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Mar 8 09:32:12 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.01 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9258 bytes (9.04 Kbytes)
+	23.04% of uncompressed inode table size (40176 bytes)
+Directory table size 10725 bytes (10.47 Kbytes)
+	53.95% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 96256D55
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 9 10:31:09 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.00 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21494.97 Kbytes)
+Inode table size 9260 bytes (9.04 Kbytes)
+	23.05% of uncompressed inode table size (40176 bytes)
+Directory table size 10725 bytes (10.47 Kbytes)
+	53.95% of uncompressed directory table size (19880 bytes)
+No duplicate files removed
+Number of inodes 1243
+Number of files 992
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : FC456C87
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 9 10:50:09 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.77 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21497.33 Kbytes)
+Inode table size 9177 bytes (8.96 Kbytes)
+	22.82% of uncompressed inode table size (40211 bytes)
+Directory table size 10738 bytes (10.49 Kbytes)
+	53.98% of uncompressed directory table size (19893 bytes)
+No duplicate files removed
+Number of inodes 1244
+Number of files 992
+Number of fragments 81
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 57D033BA
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 9 10:55:26 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.80 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21497.33 Kbytes)
+Inode table size 9213 bytes (9.00 Kbytes)
+	22.91% of uncompressed inode table size (40211 bytes)
+Directory table size 10739 bytes (10.49 Kbytes)
+	53.98% of uncompressed directory table size (19893 bytes)
+No duplicate files removed
+Number of inodes 1244
+Number of files 992
+Number of fragments 81
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 4ED2FE36
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 10 22:01:08 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6791.61 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21499.65 Kbytes)
+Inode table size 9227 bytes (9.01 Kbytes)
+	22.91% of uncompressed inode table size (40275 bytes)
+Directory table size 10771 bytes (10.52 Kbytes)
+	54.05% of uncompressed directory table size (19927 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 994
+Number of fragments 81
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 9C859076
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Mar 11 21:16:00 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6791.60 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21499.65 Kbytes)
+Inode table size 9216 bytes (9.00 Kbytes)
+	22.88% of uncompressed inode table size (40275 bytes)
+Directory table size 10771 bytes (10.52 Kbytes)
+	54.05% of uncompressed directory table size (19927 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 994
+Number of fragments 81
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 3947843E
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Thu Mar 13 21:47:12 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6792.95 Kbytes (6.63 Mbytes)
+	31.58% of uncompressed filesystem size (21508.71 Kbytes)
+Inode table size 9200 bytes (8.98 Kbytes)
+	22.84% of uncompressed inode table size (40275 bytes)
+Directory table size 10771 bytes (10.52 Kbytes)
+	54.05% of uncompressed directory table size (19927 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 994
+Number of fragments 81
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7929856 (7744.0 KB) (7.6 MB)
+   Images ...... : 7927780 (0x0078f7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : E8FB6B0D
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Thu Mar 13 21:58:03 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6792.94 Kbytes (6.63 Mbytes)
+	31.58% of uncompressed filesystem size (21508.71 Kbytes)
+Inode table size 9184 bytes (8.97 Kbytes)
+	22.80% of uncompressed inode table size (40275 bytes)
+Directory table size 10771 bytes (10.52 Kbytes)
+	54.05% of uncompressed directory table size (19927 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 994
+Number of fragments 81
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7929856 (7744.0 KB) (7.6 MB)
+   Images ...... : 7927780 (0x0078f7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : FEF2CF7A
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Thu Mar 13 23:18:10 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6794.50 Kbytes (6.64 Mbytes)
+	31.58% of uncompressed filesystem size (21513.24 Kbytes)
+Inode table size 9235 bytes (9.02 Kbytes)
+	22.93% of uncompressed inode table size (40275 bytes)
+Directory table size 10771 bytes (10.52 Kbytes)
+	54.05% of uncompressed directory table size (19927 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 994
+Number of fragments 82
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7929856 (7744.0 KB) (7.6 MB)
+   Images ...... : 7927780 (0x0078f7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 36C3FEDC
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Fri Mar 14 07:50:29 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6794.55 Kbytes (6.64 Mbytes)
+	31.58% of uncompressed filesystem size (21513.63 Kbytes)
+Inode table size 9292 bytes (9.07 Kbytes)
+	23.07% of uncompressed inode table size (40275 bytes)
+Directory table size 10767 bytes (10.51 Kbytes)
+	54.03% of uncompressed directory table size (19927 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 994
+Number of fragments 82
+Number of symbolic links  189
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7929856 (7744.0 KB) (7.6 MB)
+   Images ...... : 7927780 (0x0078f7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : B57FE865
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Fri Mar 14 17:26:21 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.94 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21497.29 Kbytes)
+Inode table size 9270 bytes (9.05 Kbytes)
+	23.04% of uncompressed inode table size (40240 bytes)
+Directory table size 10765 bytes (10.51 Kbytes)
+	54.06% of uncompressed directory table size (19914 bytes)
+No duplicate files removed
+Number of inodes 1245
+Number of files 994
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 7901CE63
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 07:38:30 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.66 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21497.29 Kbytes)
+Inode table size 9219 bytes (9.00 Kbytes)
+	22.91% of uncompressed inode table size (40240 bytes)
+Directory table size 10768 bytes (10.52 Kbytes)
+	54.07% of uncompressed directory table size (19914 bytes)
+No duplicate files removed
+Number of inodes 1245
+Number of files 994
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : B41646C4
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 17:59:53 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6790.73 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21497.40 Kbytes)
+Inode table size 9217 bytes (9.00 Kbytes)
+	22.91% of uncompressed inode table size (40240 bytes)
+Directory table size 10764 bytes (10.51 Kbytes)
+	54.05% of uncompressed directory table size (19914 bytes)
+No duplicate files removed
+Number of inodes 1245
+Number of files 994
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 419C13DA
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 18:22:43 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6791.50 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21500.15 Kbytes)
+Inode table size 9213 bytes (9.00 Kbytes)
+	22.90% of uncompressed inode table size (40240 bytes)
+Directory table size 10769 bytes (10.52 Kbytes)
+	54.08% of uncompressed directory table size (19914 bytes)
+No duplicate files removed
+Number of inodes 1245
+Number of files 994
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 9D78F706
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 18:57:16 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6791.75 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21503.05 Kbytes)
+Inode table size 9207 bytes (8.99 Kbytes)
+	22.86% of uncompressed inode table size (40272 bytes)
+Directory table size 10777 bytes (10.52 Kbytes)
+	54.07% of uncompressed directory table size (19932 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 995
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7925760 (7740.0 KB) (7.6 MB)
+   Images ...... : 7923684 (0x0078e7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 4096
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 4FA0441A
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 20:53:19 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6792.20 Kbytes (6.63 Mbytes)
+	31.59% of uncompressed filesystem size (21503.16 Kbytes)
+Inode table size 9189 bytes (8.97 Kbytes)
+	22.82% of uncompressed inode table size (40272 bytes)
+Directory table size 10776 bytes (10.52 Kbytes)
+	54.06% of uncompressed directory table size (19932 bytes)
+No duplicate files removed
+Number of inodes 1246
+Number of files 995
+Number of fragments 81
+Number of symbolic links  188
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 63
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7929856 (7744.0 KB) (7.6 MB)
+   Images ...... : 7927780 (0x0078f7e4)
+   Padding ..... : 2048
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 9CFF69B1
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000EC800  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 21:09:09 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.24 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.50 Kbytes)
+Inode table size 8793 bytes (8.59 Kbytes)
+	22.76% of uncompressed inode table size (38642 bytes)
+Directory table size 10319 bytes (10.08 Kbytes)
+	54.45% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : D83A04B7
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 21:17:06 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.27 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.50 Kbytes)
+Inode table size 8823 bytes (8.62 Kbytes)
+	22.83% of uncompressed inode table size (38642 bytes)
+Directory table size 10320 bytes (10.08 Kbytes)
+	54.46% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 4EC47BD1
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 21:52:25 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.23 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.50 Kbytes)
+Inode table size 8802 bytes (8.60 Kbytes)
+	22.78% of uncompressed inode table size (38642 bytes)
+Directory table size 10319 bytes (10.08 Kbytes)
+	54.45% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : F4382C74
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 22:09:44 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.25 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.50 Kbytes)
+Inode table size 8792 bytes (8.59 Kbytes)
+	22.75% of uncompressed inode table size (38642 bytes)
+Directory table size 10319 bytes (10.08 Kbytes)
+	54.45% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 3E67D590
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 22:17:19 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.24 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.50 Kbytes)
+Inode table size 8794 bytes (8.59 Kbytes)
+	22.76% of uncompressed inode table size (38642 bytes)
+Directory table size 10318 bytes (10.08 Kbytes)
+	54.45% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 327E26B4
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 22:24:25 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.26 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.50 Kbytes)
+Inode table size 8822 bytes (8.62 Kbytes)
+	22.83% of uncompressed inode table size (38642 bytes)
+Directory table size 10320 bytes (10.08 Kbytes)
+	54.46% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : E89FF1FE
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 22:55:23 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.22 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.67 Kbytes)
+Inode table size 8796 bytes (8.59 Kbytes)
+	22.76% of uncompressed inode table size (38642 bytes)
+Directory table size 10319 bytes (10.08 Kbytes)
+	54.45% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ :  9419015
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sun Mar 16 23:10:13 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.28 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.70 Kbytes)
+Inode table size 8805 bytes (8.60 Kbytes)
+	22.79% of uncompressed inode table size (38642 bytes)
+Directory table size 10319 bytes (10.08 Kbytes)
+	54.45% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 84E4F30B
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 17 07:54:41 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.30 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.70 Kbytes)
+Inode table size 8815 bytes (8.61 Kbytes)
+	22.81% of uncompressed inode table size (38642 bytes)
+Directory table size 10320 bytes (10.08 Kbytes)
+	54.46% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 57EB65AD
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 17 08:04:28 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.33 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.70 Kbytes)
+Inode table size 8845 bytes (8.64 Kbytes)
+	22.89% of uncompressed inode table size (38642 bytes)
+Directory table size 10320 bytes (10.08 Kbytes)
+	54.46% of uncompressed directory table size (18950 bytes)
+No duplicate files removed
+Number of inodes 1195
+Number of files 951
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 61
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 3E7CEEBE
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 17 13:51:41 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.07 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20814.63 Kbytes)
+Inode table size 8819 bytes (8.61 Kbytes)
+	22.86% of uncompressed inode table size (38582 bytes)
+Directory table size 10268 bytes (10.03 Kbytes)
+	54.28% of uncompressed directory table size (18915 bytes)
+No duplicate files removed
+Number of inodes 1193
+Number of files 950
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 262BEC9D
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Mar 18 07:04:28 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.46 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20815.91 Kbytes)
+Inode table size 8885 bytes (8.68 Kbytes)
+	23.03% of uncompressed inode table size (38582 bytes)
+Directory table size 10272 bytes (10.03 Kbytes)
+	54.31% of uncompressed directory table size (18915 bytes)
+No duplicate files removed
+Number of inodes 1193
+Number of files 950
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 1F7EED58
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 08:11:36 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6601.79 Kbytes (6.45 Mbytes)
+	31.71% of uncompressed filesystem size (20816.82 Kbytes)
+Inode table size 8811 bytes (8.60 Kbytes)
+	22.84% of uncompressed inode table size (38582 bytes)
+Directory table size 10268 bytes (10.03 Kbytes)
+	54.28% of uncompressed directory table size (18915 bytes)
+No duplicate files removed
+Number of inodes 1193
+Number of files 950
+Number of fragments 76
+Number of symbolic links  183
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7651328 (7472.0 KB) (7.3 MB)
+   Images ...... : 7651300 (0x0074bfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 16384
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : F927F9E3
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 08:15:16 PHT 2014 ************************
+1.28.0000 MIPSR2-116 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.34 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.93 Kbytes)
+Inode table size 8857 bytes (8.65 Kbytes)
+	22.85% of uncompressed inode table size (38766 bytes)
+Directory table size 10341 bytes (10.10 Kbytes)
+	54.47% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-116-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : AE2D8AFA
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 08:21:17 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.33 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.93 Kbytes)
+Inode table size 8835 bytes (8.63 Kbytes)
+	22.79% of uncompressed inode table size (38766 bytes)
+Directory table size 10342 bytes (10.10 Kbytes)
+	54.47% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : CE2B0936
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 08:40:55 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.38 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.93 Kbytes)
+Inode table size 8856 bytes (8.65 Kbytes)
+	22.84% of uncompressed inode table size (38766 bytes)
+Directory table size 10347 bytes (10.10 Kbytes)
+	54.50% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 836B3610
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 18:27:37 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.32 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.54 Kbytes)
+Inode table size 8886 bytes (8.68 Kbytes)
+	22.92% of uncompressed inode table size (38766 bytes)
+Directory table size 10345 bytes (10.10 Kbytes)
+	54.49% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 8937ABD2
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 19:51:59 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.28 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.54 Kbytes)
+Inode table size 8853 bytes (8.65 Kbytes)
+	22.84% of uncompressed inode table size (38766 bytes)
+Directory table size 10340 bytes (10.10 Kbytes)
+	54.46% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 9D872122
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 20:39:54 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.29 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.54 Kbytes)
+Inode table size 8857 bytes (8.65 Kbytes)
+	22.85% of uncompressed inode table size (38766 bytes)
+Directory table size 10340 bytes (10.10 Kbytes)
+	54.46% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ :  29D59E7
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 20:52:33 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.29 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.54 Kbytes)
+Inode table size 8854 bytes (8.65 Kbytes)
+	22.84% of uncompressed inode table size (38766 bytes)
+Directory table size 10339 bytes (10.10 Kbytes)
+	54.46% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 2F8A0081
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Mar 19 21:11:38 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.25 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.54 Kbytes)
+Inode table size 8832 bytes (8.62 Kbytes)
+	22.78% of uncompressed inode table size (38766 bytes)
+Directory table size 10342 bytes (10.10 Kbytes)
+	54.47% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 8BAB1F34
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Thu Mar 20 07:06:58 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6777.32 Kbytes (6.62 Mbytes)
+	31.63% of uncompressed filesystem size (21424.55 Kbytes)
+Inode table size 8870 bytes (8.66 Kbytes)
+	22.88% of uncompressed inode table size (38766 bytes)
+Directory table size 10339 bytes (10.10 Kbytes)
+	54.46% of uncompressed directory table size (18986 bytes)
+No duplicate files removed
+Number of inodes 1198
+Number of files 954
+Number of fragments 76
+Number of symbolic links  184
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 60
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7831552 (7648.0 KB) (7.5 MB)
+   Images ...... : 7831524 (0x00777fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 3 EBs + 32768
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : CE67A8D8
+ 128K Blocks ... : 60 (0x0000003C)
+  64K Blocks ... : 120 (0x00000078)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 24 12:00:42 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 7036.36 Kbytes (6.87 Mbytes)
+	31.75% of uncompressed filesystem size (22163.51 Kbytes)
+Inode table size 9171 bytes (8.96 Kbytes)
+	23.20% of uncompressed inode table size (39533 bytes)
+Directory table size 10582 bytes (10.33 Kbytes)
+	54.69% of uncompressed directory table size (19350 bytes)
+No duplicate files removed
+Number of inodes 1220
+Number of files 971
+Number of fragments 78
+Number of symbolic links  187
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 8097792 (7908.0 KB) (7.7 MB)
+   Images ...... : 8097764 (0x007b8fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 0 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : D31703BD
+ 128K Blocks ... : 62 (0x0000003E)
+  64K Blocks ... : 124 (0x0000007C)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 24 12:11:19 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6861.95 Kbytes (6.70 Mbytes)
+	31.57% of uncompressed filesystem size (21738.55 Kbytes)
+Inode table size 9026 bytes (8.81 Kbytes)
+	22.97% of uncompressed inode table size (39301 bytes)
+Directory table size 10539 bytes (10.29 Kbytes)
+	54.75% of uncompressed directory table size (19250 bytes)
+No duplicate files removed
+Number of inodes 1214
+Number of files 967
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7917568 (7732.0 KB) (7.6 MB)
+   Images ...... : 7917540 (0x0078cfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 12288
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 13A5F6A5
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 31 21:42:55 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6866.47 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21745.04 Kbytes)
+Inode table size 9050 bytes (8.84 Kbytes)
+	23.03% of uncompressed inode table size (39301 bytes)
+Directory table size 10537 bytes (10.29 Kbytes)
+	54.74% of uncompressed directory table size (19250 bytes)
+No duplicate files removed
+Number of inodes 1214
+Number of files 967
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7921664 (7736.0 KB) (7.6 MB)
+   Images ...... : 7921636 (0x0078dfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 8192
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 2E5AC682
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 31 22:06:09 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6866.87 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21746.43 Kbytes)
+Inode table size 9080 bytes (8.87 Kbytes)
+	23.10% of uncompressed inode table size (39301 bytes)
+Directory table size 10539 bytes (10.29 Kbytes)
+	54.75% of uncompressed directory table size (19250 bytes)
+No duplicate files removed
+Number of inodes 1214
+Number of files 967
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7921664 (7736.0 KB) (7.6 MB)
+   Images ...... : 7921636 (0x0078dfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 8192
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 1D8C49F8
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Mar 31 22:29:33 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6867.11 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21747.33 Kbytes)
+Inode table size 9026 bytes (8.81 Kbytes)
+	22.97% of uncompressed inode table size (39301 bytes)
+Directory table size 10540 bytes (10.29 Kbytes)
+	54.75% of uncompressed directory table size (19250 bytes)
+No duplicate files removed
+Number of inodes 1214
+Number of files 967
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7921664 (7736.0 KB) (7.6 MB)
+   Images ...... : 7921636 (0x0078dfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 8192
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : FEEB124C
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Apr 5 08:27:24 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 7011.79 Kbytes (6.85 Mbytes)
+	31.65% of uncompressed filesystem size (22156.40 Kbytes)
+Inode table size 9093 bytes (8.88 Kbytes)
+	23.10% of uncompressed inode table size (39369 bytes)
+Directory table size 10524 bytes (10.28 Kbytes)
+	54.64% of uncompressed directory table size (19261 bytes)
+No duplicate files removed
+Number of inodes 1215
+Number of files 966
+Number of fragments 77
+Number of symbolic links  187
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 8069120 (7880.0 KB) (7.7 MB)
+   Images ...... : 8069092 (0x007b1fe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 0 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 7E4D82A7
+ 128K Blocks ... : 62 (0x0000003E)
+  64K Blocks ... : 124 (0x0000007C)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Sat Apr 5 08:35:14 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6866.42 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21745.01 Kbytes)
+Inode table size 9053 bytes (8.84 Kbytes)
+	23.07% of uncompressed inode table size (39237 bytes)
+Directory table size 10455 bytes (10.21 Kbytes)
+	54.41% of uncompressed directory table size (19216 bytes)
+No duplicate files removed
+Number of inodes 1212
+Number of files 965
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7921664 (7736.0 KB) (7.6 MB)
+   Images ...... : 7921636 (0x0078dfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 8192
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 50308AB8
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Apr 15 12:09:21 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6866.42 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21745.01 Kbytes)
+Inode table size 9066 bytes (8.85 Kbytes)
+	23.11% of uncompressed inode table size (39237 bytes)
+Directory table size 10453 bytes (10.21 Kbytes)
+	54.40% of uncompressed directory table size (19216 bytes)
+No duplicate files removed
+Number of inodes 1212
+Number of files 965
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7921664 (7736.0 KB) (7.6 MB)
+   Images ...... : 7921636 (0x0078dfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 8192
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 275A4276
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Apr 15 12:26:26 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6866.40 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21745.01 Kbytes)
+Inode table size 9032 bytes (8.82 Kbytes)
+	23.02% of uncompressed inode table size (39237 bytes)
+Directory table size 10456 bytes (10.21 Kbytes)
+	54.41% of uncompressed directory table size (19216 bytes)
+No duplicate files removed
+Number of inodes 1212
+Number of files 965
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7921664 (7736.0 KB) (7.6 MB)
+   Images ...... : 7921636 (0x0078dfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 8192
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 690D0642
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Apr 15 12:54:46 PHT 2014 ************************
+1.28.0000 MIPSR2-117 K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6866.36 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21745.00 Kbytes)
+Inode table size 9023 bytes (8.81 Kbytes)
+	23.00% of uncompressed inode table size (39237 bytes)
+Directory table size 10454 bytes (10.21 Kbytes)
+	54.40% of uncompressed directory table size (19216 bytes)
+No duplicate files removed
+Number of inodes 1212
+Number of files 965
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7921664 (7736.0 KB) (7.6 MB)
+   Images ...... : 7921636 (0x0078dfe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 8192
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 858AD2F0
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Apr 21 11:48:43 PHT 2014 ************************
+1.28.0000 MIPSR2-117i K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6874.25 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21769.00 Kbytes)
+Inode table size 9103 bytes (8.89 Kbytes)
+	23.20% of uncompressed inode table size (39237 bytes)
+Directory table size 10453 bytes (10.21 Kbytes)
+	54.40% of uncompressed directory table size (19216 bytes)
+No duplicate files removed
+Number of inodes 1212
+Number of files 965
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117i-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7929856 (7744.0 KB) (7.6 MB)
+   Images ...... : 7929828 (0x0078ffe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : E8CC2C15
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+
+
+*********************** Mon Apr 21 12:16:58 PHT 2014 ************************
+1.28.0000 MIPSR2-117i K26 USB KERPZ
+Creating little endian 3.0 filesystem on /home/interch/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6874.18 Kbytes (6.71 Mbytes)
+	31.58% of uncompressed filesystem size (21769.01 Kbytes)
+Inode table size 9059 bytes (8.85 Kbytes)
+	23.09% of uncompressed inode table size (39237 bytes)
+Directory table size 10454 bytes (10.21 Kbytes)
+	54.40% of uncompressed directory table size (19216 bytes)
+No duplicate files removed
+Number of inodes 1212
+Number of files 965
+Number of fragments 78
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 62
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N5x-MIPSR2-117i-KERPZ.trx
+
+TRX Image:
+ Total Size .... : 7929856 (7744.0 KB) (7.6 MB)
+   Images ...... : 7929828 (0x0078ffe4)
+   Padding ..... : 0
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 2 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : BC1F639D
+ 128K Blocks ... : 61 (0x0000003D)
+  64K Blocks ... : 121 (0x00000079)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000AD8  /home/interch/tomato/release/src-rt/linux/linux-2.6/arch/mips/brcm-boards/bcm94
+   2: 0x000D9000  router/mipsel-uclibc/target.image
+

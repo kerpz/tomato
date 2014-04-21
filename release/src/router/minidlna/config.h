@@ -350,7 +350,7 @@
 #define OS_URL "http://www.netgear.com"
 
 /* OS Version */
-#define OS_VERSION "2.6.32-55-generic"
+#define OS_VERSION "2.6.32-57-generic"
 
 /* Name of package */
 #define PACKAGE "minidlna"
