@@ -230,7 +230,6 @@ void start_usb(void)
 // and then reboot firewall service (webmon iptables rules) one more time.
 		if( nvram_match( "log_wm", "1" ) && nvram_match( "webmon_bkp", "1" ) )
 			xstart( "service", "firewall", "restart" );
-
 	}
 }
 
@@ -1051,6 +1050,9 @@ void hotplug_usb(void)
 		if (strncmp(interface ? : "", "7/", 2) == 0)	/* printer */
 			usbled_proc(device, add);
 #endif
+		/* detect 3G Modem */
+		eval("switch3g");
+
 		/* Do nothing.  The user's hotplug script must do it all. */
 		run_nvscript("script_usbhotplug", NULL, 2);
 	}

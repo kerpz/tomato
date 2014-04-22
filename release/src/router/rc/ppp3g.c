@@ -71,7 +71,7 @@ void start_ppp3g(void)
 		}
 
 		// detect 3G Modem
-		eval("switch3g");
+		//eval("switch3g");
 
 		// create ip-up script
 		if ((f = fopen("/tmp/ppp/ip-up", "w")) != NULL) {
