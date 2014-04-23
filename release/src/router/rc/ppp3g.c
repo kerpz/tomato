@@ -75,32 +75,50 @@ void start_ppp3g(void)
 
 		// create ip-up script
 		if ((f = fopen("/tmp/ppp/ip-up", "w")) != NULL) {
-			fprintf(f,
-				"#!/bin/sh\n"
+			fprintf(f, "#!/bin/sh\n"
 				"echo \"#!/bin/sh\" > /tmp/ppp/fw/ppp3g-up-fw.sh\n"
 				"echo \"iptables -I INPUT -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-up-fw.sh\n"
 				"echo \"iptables -I FORWARD -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-up-fw.sh\n"
 				"echo \"iptables -t nat -I POSTROUTING -o $1 -j MASQUERADE\" >> /tmp/ppp/fw/ppp3g-up-fw.sh\n"
 				"chmod 0755 /tmp/ppp/fw/ppp3g-up-fw.sh\n"
-				"/tmp/ppp/fw/ppp3g-up-fw.sh\n"
-				"%s\n",
-				nvram_safe_get("ppp3g_ipup"));
+				"/tmp/ppp/fw/ppp3g-up-fw.sh\n" );
+			if (nvram_get_int("ppp3g_route") == 0) { // custom
+				fprintf(f, "%s\n", nvram_safe_get("ppp3g_ipup"));
+			}
+			else if (nvram_get_int("ppp3g_route") == 1) { // default
+				fprintf(f, "route add default gw $5\n");
+			}
+			else if (nvram_get_int("ppp3g_route") == 2) { // facebook
+				fprintf(f, "for ip in `whois -h whois.radb.net '!gAS32934' | grep /`\n"
+					"do\n"
+					"	route add -net $ip dev $1 gw $5\n"
+					"done\n" );
+			}
 			fclose(f);
 			chmod("/tmp/ppp/ip-up", 0755);
 		}
 
 		// create ip-down script
 		if ((f = fopen("/tmp/ppp/ip-down", "w")) != NULL) {
-			fprintf(f,
-				"#!/bin/sh\n"
+			fprintf(f,"#!/bin/sh\n"
 				"echo \"#!/bin/sh\" > /tmp/ppp/fw/ppp3g-down-fw.sh\n"
 				"echo \"iptables -D INPUT -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-down-fw.sh\n"
 				"echo \"iptables -D FORWARD -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-down-fw.sh\n"
 				"echo \"iptables -t nat -D POSTROUTING -o $1 -j MASQUERADE\" >> /tmp/ppp/fw/ppp3g-down-fw.sh\n"
 				"chmod 0755 /tmp/ppp/fw/ppp3g-down-fw.sh\n"
-				"/tmp/ppp/fw/ppp3g-down-fw.sh\n"
-				"%s\n",
-				nvram_safe_get("ppp3g_ipdown"));
+				"/tmp/ppp/fw/ppp3g-down-fw.sh\n" );
+			if (nvram_get_int("ppp3g_route") == 0) { // custom
+				fprintf(f, "%s\n", nvram_safe_get("ppp3g_ipdown"));
+			}
+			else if (nvram_get_int("ppp3g_route") == 1) { // default
+				fprintf(f, "route del default gw $5\n");
+			}
+			else if (nvram_get_int("ppp3g_route") == 2) { // facebook
+				fprintf(f, "for ip in `whois -h whois.radb.net '!gAS32934' | grep /`\n"
+					"do\n"
+					"	route del -net $ip dev $1 gw $5\n"
+					"done\n" );
+			}
 			fclose(f);
 			chmod("/tmp/ppp/ip-down", 0755);
 		}

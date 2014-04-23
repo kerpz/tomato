@@ -612,8 +612,8 @@ static const nvset_t nvset_list[] = {
 	{ "ppp3g_passwd",		V_LENGTH(0, 60)		},
 	{ "ppp3g_demand",		V_01				},
 	{ "ppp3g_custom",		V_LENGTH(0, 256)		},
-	{ "ppp3g_idletime",		V_RANGE(0, 1440)	},
 	{ "ppp3g_redialperiod",		V_RANGE(1, 86400)	},
+	{ "ppp3g_route",		V_01			},
 	{ "ppp3g_ipup",			V_NONE				},
 	{ "ppp3g_ipdown",		V_NONE				},
 

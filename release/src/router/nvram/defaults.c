@@ -156,12 +156,11 @@ const defaults_t defaults[] = {
 	{ "ppp3g_init",			"*99#"				},
 	{ "ppp3g_apn",			"internet"			},
 	{ "ppp3g_username",		""				},	// PPP3G username
-	{ "ppp3g_passwd",		""				},	// PPP#G password
-	{ "ppp3g_idletime",		"5"				},	// Dial on demand max idle time (mins)
-	{ "ppp3g_keepalive",		"0"				},	// Restore link automatically
+	{ "ppp3g_passwd",		""				},	// PPP3G password
 	{ "ppp3g_demand",		"0"				},	// Dial on demand
 	{ "ppp3g_redialperiod",		"10"				},	// Redial Period  (seconds)*/
-	{ "ppp3g_custom",		""				},	// PPPD additional options
+	{ "ppp3g_custom",		""				},	// PPP3G additional options
+	{ "ppp3g_route",		"1"				},	// PPP3G route
 	{ "ppp3g_ipup",			""				},	// Script to run on ipup
 	{ "ppp3g_ipdown",		""				},	// Script to run on ipdown
 
