@@ -102,8 +102,7 @@ function ethstates()
 	if (port == "disabled") { return 0; }
 
 	var state, state1, state2;
-	var code = '<div class="section-title">Ethernet Ports State</div>';
-	code += '<table class="fields"><tr><td class="title indent2"><center><b>WAN</b></center></td><td class="title indent2"><!-- empty space --></td><td class="title indent2"><center><b>LAN 1</b></center></td><td class="title indent2"><center><b>LAN 2</b></center></td><td class="title indent2"><center><b>LAN 3</b></center></td><td class="title indent2"><center><b>LAN 4</b></center></td><tr>';
+	var code = '<table class="fields"><tr><td class="title indent2"><center><b>WAN</b></center></td><td class="title indent2"><!-- empty space --></td><td class="title indent2"><center><b>LAN 1</b></center></td><td class="title indent2"><center><b>LAN 2</b></center></td><td class="title indent2"><center><b>LAN 3</b></center></td><td class="title indent2"><center><b>LAN 4</b></center></td><tr>';
 
 	if (port == "DOWN") {
 		state = '<img id="eth_off" src="eth_off.png"><br>';
@@ -203,7 +202,7 @@ function ethstates()
 
 	code += '<td class="content"> </td></tr>';
 	code += '<tr><td class="title indent1" colspan="7" align="right">&raquo; <a href="basic-network.asp">Configure</a></td></tr></table></div>';
-	E("ports").innerHTML = code;
+	E("sesdiv_ethstate").innerHTML = code;
 }
 
 function anon_update()
@@ -229,6 +228,8 @@ function show()
 	c('dns', stats.dns);
 	c('memory', stats.memory);
 	c('swap', stats.swap);
+	c('ppp3gip', stats.ppp3gip);
+	c('ppp3ggateway', stats.ppp3ggateway);
 	elem.display('swap', stats.swap != '');
 
 /* IPV6-BEGIN */
@@ -282,6 +283,8 @@ function earlyInit()
 	elem.display('b_connect', 'b_disconnect', show_codi);
 	if (nvram.wan_proto == 'disabled')
 		elem.display('wan-title', 'sesdiv_wan', 0);
+	if (nvram.ppp3g_en == 0)
+		elem.display('ppp3g-title', 'sesdiv_ppp3g', 0);
 	for (var uidx = 0; uidx < wl_ifaces.length; ++uidx) {
 		if (wl_sunit(uidx)<0)
 			elem.display('b_wl'+uidx+'_enable', 'b_wl'+uidx+'_disable', show_radio[uidx]);
@@ -365,7 +368,8 @@ createFieldTable('', [
 </script>
 </div>
 
-<div class='section' id='ports'>
+<div class="section-title">Ethernet Ports State <small><i><a href="javascript:toggleVisibility('ethstate');"><span id="sesdiv_ethstate_showhide">(hide)</span></a></i></small></div>
+<div class="section" id="sesdiv_ethstate">
 </div>
 
 <div class='section-title' id='wan-title'>WAN <small><i><a href='javascript:toggleVisibility("wan");'><span id='sesdiv_wan_showhide'>(hide)</span></a></i></small></div>
@@ -397,6 +401,16 @@ createFieldTable('', [
 <input type='button' class='controls' onclick='wan_disconnect()' value='Disconnect' id='b_disconnect' style='display:none'>
 </div>
 
+<div class="section-title" id='ppp3g-title'>PPP3G <small><i><a href="javascript:toggleVisibility('ppp3g');"><span id="sesdiv_ppp3g_showhide">(hide)</span></a></i></small></div>
+<div class="section" id="sesdiv_ppp3g">
+<script type='text/javascript'>
+createFieldTable('', [
+	{ title: 'IP Address', rid: 'ppp3gip', text: stats.ppp3gip },
+	{ title: 'Gateway', rid: 'ppp3ggateway', text: stats.ppp3ggateway },
+	{ title: 'DNS', rid: 'dns', text: stats.dns },
+]);
+</script>
+</div>
 
 <div class='section-title'>LAN <small><i><a href='javascript:toggleVisibility("lan");'><span id='sesdiv_lan_showhide'>(hide)</span></a></i></small></div>
 <div class='section' id='sesdiv_lan'>

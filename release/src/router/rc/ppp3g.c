@@ -76,6 +76,9 @@ void start_ppp3g(void)
 		// create ip-up script
 		if ((f = fopen("/tmp/ppp/ip-up", "w")) != NULL) {
 			fprintf(f, "#!/bin/sh\n"
+				"nvram set ppp3g_hwname=$1\n"
+				"nvram set ppp3g_ipaddr=$4\n"
+				"nvram set ppp3g_gateway=$5\n"
 				"echo \"#!/bin/sh\" > /tmp/ppp/fw/ppp3g-up-fw.sh\n"
 				"echo \"iptables -I INPUT -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-up-fw.sh\n"
 				"echo \"iptables -I FORWARD -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-up-fw.sh\n"
@@ -101,6 +104,9 @@ void start_ppp3g(void)
 		// create ip-down script
 		if ((f = fopen("/tmp/ppp/ip-down", "w")) != NULL) {
 			fprintf(f,"#!/bin/sh\n"
+				"nvram set ppp3g_hwname=\n"
+				"nvram set ppp3g_ipaddr=0.0.0.0\n"
+				"nvram set ppp3g_gateway=0.0.0.0\n"
 				"echo \"#!/bin/sh\" > /tmp/ppp/fw/ppp3g-down-fw.sh\n"
 				"echo \"iptables -D INPUT -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-down-fw.sh\n"
 				"echo \"iptables -D FORWARD -i $1 -j ACCEPT\" >> /tmp/ppp/fw/ppp3g-down-fw.sh\n"
