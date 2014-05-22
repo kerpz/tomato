@@ -91,9 +91,9 @@ void start_ppp3g(void)
 			}
 			else if (nvram_get_int("ppp3g_route") == 1) { // default
 				fprintf(f, "route add default gw $5\n"
-					   "if [ \"$USEPEERDNS\" = \"1\" -a -f /etc/ppp/resolv.conf ]; then\n"
+					   "if [ \"$USEPEERDNS\" = \"1\" -a -f /tmp/ppp/resolv.conf ]; then\n"
 				    	   "	[ -e /etc/resolv.conf ] && mv /etc/resolv.conf /etc/resolv.conf.backup\n"
-					   "	mv /etc/ppp/resolv.conf /etc/resolv.conf\n"
+					   "	mv /tmp/ppp/resolv.conf /etc/resolv.conf\n"
 					   "	chmod 644 /etc/resolv.conf\n"
 					   "	nvram set ppp3g_dns=\"$DNS1 $DNS2\"\n"
 					   "fi\n" );
@@ -125,7 +125,7 @@ void start_ppp3g(void)
 			}
 			else if (nvram_get_int("ppp3g_route") == 1) { // default
 				fprintf(f, "route del default gw $5\n"
-					   "if [ \"$USEPEERDNS\" = \"1\" -a -f /etc/ppp/resolv.conf.backup ]; then\n"
+					   "if [ \"$USEPEERDNS\" = \"1\" -a -f /etc/resolv.conf.backup ]; then\n"
 				    	   "	mv /etc/resolv.conf.backup /etc/resolv.conf\n"
 					   "	chmod 644 /etc/resolv.conf\n"
 					   "	nvram set ppp3g_dns=\n"
