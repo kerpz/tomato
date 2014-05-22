@@ -230,6 +230,7 @@ function show()
 	c('swap', stats.swap);
 	c('ppp3gip', stats.ppp3gip);
 	c('ppp3ggateway', stats.ppp3ggateway);
+	c('ppp3gdns', stats.ppp3gdns);
 	elem.display('swap', stats.swap != '');
 
 /* IPV6-BEGIN */
@@ -407,7 +408,7 @@ createFieldTable('', [
 createFieldTable('', [
 	{ title: 'IP Address', rid: 'ppp3gip', text: stats.ppp3gip },
 	{ title: 'Gateway', rid: 'ppp3ggateway', text: stats.ppp3ggateway },
-	{ title: 'DNS', rid: 'dns', text: stats.dns },
+	{ title: 'DNS', rid: 'ppp3gdns', text: stats.ppp3gdns },
 ]);
 </script>
 </div>

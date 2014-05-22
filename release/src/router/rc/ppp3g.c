@@ -27,6 +27,7 @@ void start_ppp3g(void)
 				"connect \"/usr/sbin/chat -v -f /tmp/ppp/peers/ppp3g-chat\"\n"
 				"nodefaultroute\n"
 				"noipdefault\n"
+				"usepeerdns\n"
 				"novj\n",
 				nvram_safe_get("ppp3g_dev"));
 			if (strlen(nvram_get("ppp3g_username")) >0 ) {
@@ -89,7 +90,13 @@ void start_ppp3g(void)
 				fprintf(f, "%s\n", nvram_safe_get("ppp3g_ipup"));
 			}
 			else if (nvram_get_int("ppp3g_route") == 1) { // default
-				fprintf(f, "route add default gw $5\n");
+				fprintf(f, "route add default gw $5\n"
+					   "if [ \"$USEPEERDNS\" = \"1\" -a -f /etc/ppp/resolv.conf ]; then\n"
+				    	   "	[ -e /etc/resolv.conf ] && mv /etc/resolv.conf /etc/resolv.conf.backup\n"
+					   "	mv /etc/ppp/resolv.conf /etc/resolv.conf\n"
+					   "	chmod 644 /etc/resolv.conf\n"
+					   "	nvram set ppp3g_dns=\"$DNS1 $DNS2\"\n"
+					   "fi\n" );
 			}
 			else if (nvram_get_int("ppp3g_route") == 2) { // facebook
 				fprintf(f, "for ip in `whois -h whois.radb.net '!gAS32934' | grep /`\n"
@@ -117,7 +124,12 @@ void start_ppp3g(void)
 				fprintf(f, "%s\n", nvram_safe_get("ppp3g_ipdown"));
 			}
 			else if (nvram_get_int("ppp3g_route") == 1) { // default
-				fprintf(f, "route del default gw $5\n");
+				fprintf(f, "route del default gw $5\n"
+					   "if [ \"$USEPEERDNS\" = \"1\" -a -f /etc/ppp/resolv.conf.backup ]; then\n"
+				    	   "	mv /etc/resolv.conf.backup /etc/resolv.conf\n"
+					   "	chmod 644 /etc/resolv.conf\n"
+					   "	nvram set ppp3g_dns=\n"
+					   "fi\n" );
 			}
 			else if (nvram_get_int("ppp3g_route") == 2) { // facebook
 				fprintf(f, "for ip in `whois -h whois.radb.net '!gAS32934' | grep /`\n"
