@@ -72,7 +72,7 @@ void start_ppp3g(void)
 		}
 
 		// detect 3G Modem
-		//eval("switch3g");
+		eval("switch3g");
 
 		// create ip-up script
 		if ((f = fopen("/tmp/ppp/ip-up", "w")) != NULL) {
@@ -143,7 +143,23 @@ void start_ppp3g(void)
 
 		if (nvram_get_int("ppp3g_demand")) {
 			// on demand / single fire
-			xstart("pppd", "call", "ppp3g");
+			//xstart("pppd", "call", "ppp3g");
+			// single fire mode
+			if ((f = fopen("/tmp/ppp/ppp3g_redial.sh", "w")) != NULL) {
+				fprintf(f,
+					"#!/bin/sh\n"
+					"OPS=\"\"\n"
+					"while [ \"$OPS\" == \"\" ]\n"
+					"do\n"
+					"    OPS=`gcom -d /dev/%s -s /etc/gcom/getoperator.gcom | grep \"COPS:\" | cut -d \",\" -f3`\n"
+					"done\n"
+					"sleep 1\n"
+					"pppd call ppp3g\n",
+					nvram_safe_get("ppp3g_dev"));
+				fclose(f);
+				chmod("/tmp/ppp/ppp3g_redial.sh", 0755);
+				xstart("/tmp/ppp/ppp3g_redial.sh");
+			}
 		}
 		else {
 			// keepalive mode
@@ -152,9 +168,15 @@ void start_ppp3g(void)
 					"#!/bin/sh\n"
 					"while [ 1 ]\n"
 					"do\n"
+					"  OPS=\"\"\n"
+					"  while [ \"$OPS\" == \"\" ]\n"
+					"  do\n"
+					"    OPS=`gcom -d /dev/%s -s /etc/gcom/getoperator.gcom | grep \"COPS:\" | cut -d \",\" -f3`\n"
+					"  done\n"
 					"	pppd call ppp3g\n"
 					"	sleep %s\n"
 					"done\n",
+					nvram_safe_get("ppp3g_dev"),
 					nvram_safe_get("ppp3g_redialperiod"));
 				fclose(f);
 				chmod("/tmp/ppp/ppp3g_redial.sh", 0755);
