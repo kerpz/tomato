@@ -362,53 +362,61 @@ const aspapi_t aspapi[] = {
 	{ "cgi_get",			asp_cgi_get			},
 	{ "compmac",			asp_compmac			},
 	{ "ctcount",			asp_ctcount			},
-	{ "ctdump",				asp_ctdump			},
-	{ "ctrate",				asp_ctrate			},
-	{ "ddnsx",				asp_ddnsx			},
+	{ "ctdump",			asp_ctdump			},
+	{ "ctrate",			asp_ctrate			},
+	{ "ddnsx",			asp_ddnsx			},
 	{ "devlist",			asp_devlist			},
-	{ "webmon",				asp_webmon			},
+	{ "webmon",			asp_webmon			},
 	{ "dhcpc_time",			asp_dhcpc_time		},
-	{ "dns",				asp_dns				},
-	{ "ident",				asp_ident			},
-	{ "lanip",				asp_lanip			},
-	{ "layer7",				asp_layer7			},
+	{ "dns",			asp_dns				},
+	{ "ident",			asp_ident			},
+	{ "lanip",			asp_lanip			},
+	{ "layer7",			asp_layer7			},
 	{ "link_uptime",		asp_link_uptime		},
-	{ "lipp",				asp_lipp			},
-	{ "netdev",				asp_netdev			},
+	{ "lipp",			asp_lipp			},
+	{ "netdev",			asp_netdev			},
 
 	{ "iptraffic",			asp_iptraffic		},
-	{ "iptmon",				asp_iptmon			},
+	{ "iptmon",			asp_iptmon			},
 	{ "ipt_bandwidth",		asp_ipt_bandwidth	},
 
-	{ "notice",				asp_notice			},
-	{ "nv",					asp_nv				},
-	{ "nvram",				asp_nvram 			},
+	{ "notice",			asp_notice			},
+	{ "nv",				asp_nv				},
+	{ "nvram",			asp_nvram 			},
 	{ "nvramseq",			asp_nvramseq		},
-	{ "nvstat",				asp_nvstat 			},
-	{ "psup",				asp_psup			},
-	{ "qrate",				asp_qrate			},
-	{ "resmsg",				asp_resmsg			},
-	{ "rrule",				asp_rrule			},
-	{ "statfs",				asp_statfs			},
+	{ "nvstat",			asp_nvstat 			},
+	{ "psup",			asp_psup			},
+	{ "qrate",			asp_qrate			},
+	{ "resmsg",			asp_resmsg			},
+	{ "rrule",			asp_rrule			},
+	{ "statfs",			asp_statfs			},
 	{ "sysinfo",			asp_sysinfo			},
-	{ "time",				asp_time			},
+	{ "time",			asp_time			},
 	{ "upnpinfo",			asp_upnpinfo		},
 	{ "version",			asp_version			},
 	{ "wanstatus",			asp_wanstatus		},
-	{ "wanup",				asp_wanup			},
+	{ "wanup",			asp_wanup			},
 #ifdef TCONFIG_PPTPD
 	{ "pptpd_userol",		asp_pptpd_userol	},
 #endif
 	{ "wlstats",			asp_wlstats		},
 	{ "wlclient",			asp_wlclient		},
 	{ "wlnoise",			asp_wlnoise			},
-	{ "wlscan",				asp_wlscan			},
+	{ "wlscan",			asp_wlscan			},
 	{ "wlchannels",			asp_wlchannels	},	//!!TB
 	{ "wlcountries",		asp_wlcountries	},
 	{ "wlifaces",			asp_wlifaces		},
 	{ "wlbands",			asp_wlbands		},
 #ifdef TCONFIG_USB
 	{ "usbdevices",			asp_usbdevices	},	//!!TB - USB Support
+	{ "ppp3g_status",		asp_ppp3g_status		},
+	{ "ppp3g_up",			asp_ppp3g_up			},
+	{ "ppp3g_uptime",		asp_ppp3g_uptime		},
+	{ "ppp3g_ops",			asp_ppp3g_ops		},
+	{ "ppp3g_sq",			asp_ppp3g_sq		},
+	{ "ppp3g_ip",			asp_ppp3g_ip		},
+	{ "ppp3g_gw",			asp_ppp3g_gw		},
+	{ "ppp3g_dns",			asp_ppp3g_dns		},
 #endif
 #ifdef TCONFIG_SDHC
 	{ "mmcid",			asp_mmcid	},	//MMC Support
@@ -419,8 +427,8 @@ const aspapi_t aspapi[] = {
 	{ "calc6rdlocalprefix",		asp_calc6rdlocalprefix	},
 #endif
 
-	{ "css",				asp_css				},
-	{ NULL,					NULL				}
+	{ "css",			asp_css				},
+	{ NULL,				NULL				}
 };
 
 // -----------------------------------------------------------------------------

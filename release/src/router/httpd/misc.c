@@ -730,6 +730,104 @@ void asp_link_uptime(int argc, char **argv)
 	web_puts(buf);
 }
 
+void asp_ppp3g_up(int argc, char **argv)
+{
+	web_puts(f_exists("/var/lib/misc/ppp3g.up") ? "1" : "0");
+}
+
+void asp_ppp3g_status(int argc, char **argv)
+{
+	const char *p;
+
+	if (f_exists("/var/lib/misc/ppp3g.up"))
+		p = "Connected";
+	else if (f_exists("/var/lib/misc/ppp3g.connecting"))
+		p = "Connecting...";
+	else
+		p = "Disconnected";
+	web_puts(p);
+}
+
+void asp_ppp3g_uptime(int argc, char **argv)
+{
+	struct sysinfo si;
+	char s[64];
+	char buf[64];
+	long uptime;
+
+	buf[0] = '-';
+	buf[1] = 0;
+	if (f_exists("/var/lib/misc/ppp3g.uptime")) {
+		sysinfo(&si);
+		//if (f_read("/var/lib/misc/ppp3g.uptime", &uptime, sizeof(uptime)) == sizeof(uptime)) {
+		if (f_read_string("/var/lib/misc/ppp3g.uptime", buf, sizeof(buf)) > 0) {
+			uptime = atol(buf);
+			reltime(buf, si.uptime - uptime);
+		}
+	}
+	web_puts(buf);
+}
+
+void asp_ppp3g_ops(int argc, char **argv)
+{
+	char buf[64];
+
+	buf[0] = '-';
+	buf[1] = 0;
+	if (f_exists("/var/lib/misc/ppp3g.ops")) {
+		if (f_read_string("/var/lib/misc/ppp3g.ops", buf, sizeof(buf)) <= 0) return;
+	}
+	web_puts(buf);
+}
+
+void asp_ppp3g_sq(int argc, char **argv)
+{
+	char buf[10];
+
+	buf[0] = '0';
+	buf[1] = 0;
+	if (f_exists("/var/lib/misc/ppp3g.sq")) {
+		if (f_read_string("/var/lib/misc/ppp3g.sq", buf, sizeof(buf)) <= 0) return;
+	}
+	web_puts(buf);
+}
+
+void asp_ppp3g_ip(int argc, char **argv)
+{
+	char buf[16];
+
+	buf[0] = '-';
+	buf[1] = 0;
+	if (f_exists("/var/lib/misc/ppp3g.ip")) {
+		if (f_read_string("/var/lib/misc/ppp3g.ip", buf, sizeof(buf)) <= 0) return;
+	}
+	web_puts(buf);
+}
+
+void asp_ppp3g_gw(int argc, char **argv)
+{
+	char buf[16];
+
+	buf[0] = '-';
+	buf[1] = 0;
+	if (f_exists("/var/lib/misc/ppp3g.gw")) {
+		if (f_read_string("/var/lib/misc/ppp3g.gw", buf, sizeof(buf)) <= 0) return;
+	}
+	web_puts(buf);
+}
+
+void asp_ppp3g_dns(int argc, char **argv)
+{
+	char buf[64];
+
+	buf[0] = '-';
+	buf[1] = 0;
+	if (f_exists("/var/lib/misc/ppp3g.dns")) {
+		if (f_read_string("/var/lib/misc/ppp3g.dns", buf, sizeof(buf)) <= 0) return;
+	}
+	web_puts(buf);
+}
+
 void asp_rrule(int argc, char **argv)
 {
 	char s[32];

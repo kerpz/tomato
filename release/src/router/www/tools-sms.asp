@@ -478,6 +478,8 @@ function sendsms()
 		eval(text);
 		pg.populate();
 		sms = null;
+		E('_f_number').value = '';
+		E('_f_message').value = '';
 	}
 	sms.onError = function(x) {
 		alert('error: ' + x);

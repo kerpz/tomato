@@ -39,6 +39,7 @@ bgmo = {'disabled':'-','mixed':'Auto','b-only':'B Only','g-only':'G Only','bg-mi
 <script type='text/javascript'>
 show_dhcpc = ((nvram.wan_proto == 'dhcp') || (((nvram.wan_proto == 'l2tp') || (nvram.wan_proto == 'pptp')) && (nvram.pptp_dhcp == '1')));
 show_codi = ((nvram.wan_proto == 'pppoe') || (nvram.wan_proto == 'l2tp') || (nvram.wan_proto == 'pptp') || (nvram.wan_proto == 'ppp3g'));
+show_codi2 = ((nvram.ppp3g_en == 1));
 
 show_radio = [];
 for (var uidx = 0; uidx < wl_ifaces.length; ++uidx) {
@@ -69,6 +70,16 @@ function wan_connect()
 function wan_disconnect()
 {
 	serv('wan-stop', 2);
+}
+
+function ppp3g_connect()
+{
+	serv('ppp3g-restart', 5);
+}
+
+function ppp3g_disconnect()
+{
+	serv('ppp3g-stop', 2);
 }
 
 function wlenable(uidx, n)
@@ -228,6 +239,8 @@ function show()
 	c('dns', stats.dns);
 	c('memory', stats.memory);
 	c('swap', stats.swap);
+	c('ppp3gops', stats.ppp3gops);
+	c('ppp3gsq', stats.ppp3gsq);
 	c('ppp3gip', stats.ppp3gip);
 	c('ppp3ggateway', stats.ppp3ggateway);
 	c('ppp3gdns', stats.ppp3gdns);
@@ -248,6 +261,13 @@ function show()
 	if (show_codi) {
 		E('b_connect').disabled = stats.wanup;
 		E('b_disconnect').disabled = !stats.wanup;
+	}
+
+	c('ppp3gstatus', stats.ppp3gstatus);
+	c('ppp3guptime', stats.ppp3guptime);
+	if (show_codi2) {
+		E('b2_connect').disabled = stats.ppp3gup;
+		E('b2_disconnect').disabled = !stats.ppp3gup;
 	}
 
 	for (var uidx = 0; uidx < wl_ifaces.length; ++uidx) {
@@ -282,6 +302,7 @@ function earlyInit()
 
 	elem.display('b_dhcpc', show_dhcpc);
 	elem.display('b_connect', 'b_disconnect', show_codi);
+	elem.display('b2_connect', 'b2_disconnect', show_codi2);
 	if (nvram.wan_proto == 'disabled')
 		elem.display('wan-title', 'sesdiv_wan', 0);
 	if (nvram.ppp3g_en == 0)
@@ -406,11 +427,17 @@ createFieldTable('', [
 <div class="section" id="sesdiv_ppp3g">
 <script type='text/javascript'>
 createFieldTable('', [
+	{ title: 'Operator', rid: 'ppp3gops', text: stats.ppp3gops },
+	{ title: 'Signal Quality', rid: 'ppp3gsq', text: stats.ppp3gsq },
 	{ title: 'IP Address', rid: 'ppp3gip', text: stats.ppp3gip },
 	{ title: 'Gateway', rid: 'ppp3ggateway', text: stats.ppp3ggateway },
 	{ title: 'DNS', rid: 'ppp3gdns', text: stats.ppp3gdns },
+	{ title: 'Status', rid: 'ppp3gstatus', text: stats.ppp3gstatus },
+	{ title: 'Connection Uptime', rid: 'ppp3guptime', text: stats.ppp3guptime },
 ]);
 </script>
+<input type='button' class='controls' onclick='ppp3g_connect()' value='Connect' id='b2_connect' style='display:none'>
+<input type='button' class='controls' onclick='ppp3g_disconnect()' value='Disconnect' id='b2_disconnect' style='display:none'>
 </div>
 
 <div class='section-title'>LAN <small><i><a href='javascript:toggleVisibility("lan");'><span id='sesdiv_lan_showhide'>(hide)</span></a></i></small></div>

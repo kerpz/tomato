@@ -1,4 +1,4 @@
-//<% nvram("ppp_get_ip,pptp_server_ip,router_name,wan_ipaddr_buf,wan_domain,wan_gateway,wan_gateway_get,wan_get_domain,wan_hostname,wan_hwaddr,wan_ipaddr,wan_netmask,wan_proto,wan_run_mtu,et0macaddr,lan_proto,lan_ipaddr,dhcp_start,dhcp_num,dhcpd_startip,dhcpd_endip,lan_netmask,wl_security_mode,wl_crypto,wl_mode,wl_wds_enable,wl_hwaddr,wl_net_mode,wl_radio,wl_channel,lan_gateway,wl_ssid,wl_closed,t_model_name,t_features,pptp_dhcp,dhcp1_start,dhcp1_num,dhcpd1_startip,dhcpd1_endip,dhcp2_start,dhcp2_num,dhcpd2_startip,dhcpd2_endip,dhcp3_start,dhcp3_num,dhcpd3_startip,dhcpd3_endip,lan1_proto,lan1_ipaddr,lan1_netmask,lan2_proto,lan2_ipaddr,lan2_netmask,lan3_proto,lan3_ipaddr,lan3_netmask,lan_ifname,lan1_ifname,lan2_ifname,lan3_ifname,lan_ifnames,lan1_ifnames,lan2_ifnames,lan3_ifnames,wan_ifnames,tomatoanon_enable,tomatoanon_answer,lan_desc,ppp3g_en,ppp3g_ipaddr,ppp3g_gateway,ppp3g_dns"); %>
+//<% nvram("ppp_get_ip,pptp_server_ip,router_name,wan_ipaddr_buf,wan_domain,wan_gateway,wan_gateway_get,wan_get_domain,wan_hostname,wan_hwaddr,wan_ipaddr,wan_netmask,wan_proto,wan_run_mtu,et0macaddr,lan_proto,lan_ipaddr,dhcp_start,dhcp_num,dhcpd_startip,dhcpd_endip,lan_netmask,wl_security_mode,wl_crypto,wl_mode,wl_wds_enable,wl_hwaddr,wl_net_mode,wl_radio,wl_channel,lan_gateway,wl_ssid,wl_closed,t_model_name,t_features,pptp_dhcp,dhcp1_start,dhcp1_num,dhcpd1_startip,dhcpd1_endip,dhcp2_start,dhcp2_num,dhcpd2_startip,dhcpd2_endip,dhcp3_start,dhcp3_num,dhcpd3_startip,dhcpd3_endip,lan1_proto,lan1_ipaddr,lan1_netmask,lan2_proto,lan2_ipaddr,lan2_netmask,lan3_proto,lan3_ipaddr,lan3_netmask,lan_ifname,lan1_ifname,lan2_ifname,lan3_ifname,lan_ifnames,lan1_ifnames,lan2_ifnames,lan3_ifnames,wan_ifnames,tomatoanon_enable,tomatoanon_answer,lan_desc,ppp3g_en"); %>
 //<% uptime(); %>
 //<% sysinfo(); %>
 //<% wlstats(1); %>
@@ -80,9 +80,22 @@ do {
 		}
 	}
 
-	stats.ppp3gip = nvram.ppp3g_ipaddr;
-	stats.ppp3ggateway = nvram.ppp3g_gateway;
-	stats.ppp3gdns = nvram.ppp3g_dns;
+	stats.ppp3gops = '<% ppp3g_ops(); %>';
+	var dbm = -113 + <% ppp3g_sq(); %> * 2;
+	if ( dbm <= -100 )
+		stats.ppp3gsq = 0;
+	else if ( dbm >= -50 )
+		stats.ppp3gsq = 100;
+	else
+		stats.ppp3gsq = (2 * (dbm + 100));
+
+	stats.ppp3gsq = stats.ppp3gsq + '<small>%</small>';
+	stats.ppp3gip = '<% ppp3g_ip(); %>';
+	stats.ppp3ggateway = '<% ppp3g_gw(); %>';
+	stats.ppp3gdns = '<% ppp3g_dns(); %>';
+	stats.ppp3gup = '<% ppp3g_up(); %>' == '1';
+	stats.ppp3guptime = '<% ppp3g_uptime(); %>';
+	stats.ppp3gstatus = '<% ppp3g_status(); %>';
 
 /* IPV6-BEGIN */
 	stats.ip6_wan = ((typeof(sysinfo.ip6_wan) != 'undefined') ? sysinfo.ip6_wan : '') + '';

@@ -164,13 +164,6 @@ const defaults_t defaults[] = {
 	{ "ppp3g_ipup",			""				},	// Script to run on ipup
 	{ "ppp3g_ipdown",		""				},	// Script to run on ipdown
 
-	{ "ppp3g_hwname",		""				},	// PPP3G driver name (e.g. ppp0)
-	{ "ppp3g_hwaddr",		""				},	// PPP3G interface MAC address
-	{ "ppp3g_ipaddr",		"0.0.0.0"			},	// PPP3G IP address
-	{ "ppp3g_netmask",		"0.0.0.0"			},	// PPP3G netmask
-	{ "ppp3g_gateway",		"0.0.0.0"			},	// PPP3G gateway
-	{ "ppp3g_dns",			""				},	// x.x.x.x x.x.x.x ...
-
 	// SMS
 	{ "sms_dev",			"ttyUSB1"			},
 

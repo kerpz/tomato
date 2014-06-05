@@ -291,7 +291,6 @@ int check_wanup(void)
 	return up;
 }
 
-
 const dns_list_t *get_dns(void)
 {
 	static dns_list_t dns;
