@@ -325,6 +325,8 @@ function init()
 	if (((c = cookie.get('status_overview_system_vis')) != null) && (c != '1')) toggleVisibility("system");
 	if (((c = cookie.get('status_overview_wan_vis')) != null) && (c != '1')) toggleVisibility("wan");
 	if (((c = cookie.get('status_overview_lan_vis')) != null) && (c != '1')) toggleVisibility("lan");
+	if (((c = cookie.get('status_overview_ethstate_vis')) != null) && (c != '1')) toggleVisibility("ethstate");
+	if (((c = cookie.get('status_overview_ppp3g_vis')) != null) && (c != '1')) toggleVisibility("ppp3g");
 	for (var uidx = 0; uidx < wl_ifaces.length; ++uidx) {
 		u = wl_unit(uidx);
 		if (((c = cookie.get('status_overview_wl_'+u+'_vis')) != null) && (c != '1')) toggleVisibility("wl_"+u);
